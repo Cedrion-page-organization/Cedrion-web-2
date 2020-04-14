@@ -21,18 +21,18 @@
 
     <link rel="stylesheet" type="text/css" href="aboutUs.css">
     <link rel="stylesheet" type="text/css" href="support.css">
-    
+
     <title>Support</title>
 
-  </head>
+</head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
             <img src="http://files.123inventatuweb.com/14/01/1401906e-2d1e-4dd8-a839-efec600476f9.png" class="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <button class="navbar-toggler" id="toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon" id="icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -62,46 +62,80 @@
         <div class="row">
             <div class="col-12 support">
                 <h2 class="white">Support</h2>
-                <p>CEDRION is part of a multi-country cohort accelerated in the BizLab. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.</p>
+                <p>CEDRION is part of a multi-country cohort accelerated in the BizLab. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod. </p>
             </div>
         </div>
     </div>
-    
+
     <!----------------- Here starts accelerators container ---------->
+    <!-- <div class="container-fluid_accelerators"> 
+        <div class="row">
+            <div class="col-12">
+                <span class="highlight" class="white">Incubators and Accelerators</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+              <img
+                src="./img/eesa.PNG" class="img-fluid">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+            <div class="col-12">
+              <img
+                src="./img/airbus.PNG" class="img-fluid">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+    </div> -->
     <div class="container-fluid_accelerators">
         <div class="row">
-            <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-                
-                    <span class="highlight" class="white">Accelerators</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et. Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod.</p>
-               
-                <!-- <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-                    <img class="img-fluid airbus" src="http://files.123inventatuweb.com/ce/fb/cefb0b5a-7b9c-4f45-9bc5-2d5215fe9a5d.png">
-                </div> -->
-            </div>
+          <div class="col-12">
+            <span class="highlight">Incubators and Accelerators</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+          </div>
         </div>
-    </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12">
+            <img src="./img/EESA 2.png" class="img-fluid" id="eesa">
+          </div>
+          
+          <div class="col-lg-6 col-md-12 col-12">
+            <img src="./img/airbus.PNG" class="img-fluid" id="airbus">
+          </div>
+        </div>
+      </div>
+    
     <div class="col-12">
-        <div class="cta-button-3"><a href="#alumni" class="fas fa-chevron-down"></a></div> 
+        <div class="cta-button-3"><a href="#alumni" class="fas fa-chevron-down"></a></div>
     </div>
-    
     <hr class="hr">
-    
+
+    <!-- <hr class="hr"> -->
+
     <!------------------ Here starts grants container ------------->
     <div class="container-fluid_grants">
         <div class="row">
             <div class="col-12">
-                <span class="highlight">Grants</span>
-                <p>We have been awarded with several grants for our project, at Regional, National and European Level.</p>
+                <span class="highlight">European Grants</span>
+                <p>CEDRION is part of a multi-country cohort accelerated in the BizLab.We are also proud to be alumni of
+                    the ESA BIC Madrid Region. Incubation Centre of the European Space Agency co-funded by the Comunidad
+                    de Madrid and managed by the Fundación del Conocimiento Madri+d.</p>
             </div>
-           
-            
+            <div class="col-12">
+                <img src="" id="eesa" class="img-fluid">
+            </div>
+
         </div>
     </div>
-    <hr class="hr">
-     <!-------------------- Here starts alumni container--------------->
+
+  
+    <!-------------------- Here starts alumni container--------------->
     <!-- <div class="container-fluid_alumni">
         <div class="row">
             <div class="col-12 col-sm-6 col-md-6 col-lg-6 alumni">
@@ -124,18 +158,30 @@
     </div> -->
     <div class="container-fluid_alumni" id="alumni">
         <div class="row">
-          <div class="col-sm-6">
-            <span class="highlight">Alumni</span>
-            <p>We are also proud to be alumni of the ESA BIC Madrid Region. Incubation Centre of the European Space Agency co-funded by the Comunidad de Madrid and managed by the Fundación del Conocimiento Madri+d.</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-12" id="flotar">
-            <div class="row">
-                <img src="http://files.123inventatuweb.com/eb/64/eb64228c-cbcb-4d1b-a535-ccec961abb27.png" id="alumni_foto" class="img-fluid">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <span class="highlight">National Grants</span>
+                <p>We are also proud to be alumni of the ESA BIC Madrid Region. Incubation Centre of the European Space
+                    Agency co-funded by the Comunidad de Madrid and managed by the Fundación del Conocimiento Madri+d.
+                </p>
             </div>
         </div>
+        <div class="row">
+            <!-- <div class="col-lg-6 col-md-12 col-12">
+                <img src="./img/eesa.PNG" class="img-fluid" id="">
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="./img/eesa.PNG" class="img-fluid" id="">
+            </div> -->
+        </div>
+       
+        <!-- <div class="col-sm-6 col-12" id="flotar">
+            <div class="row">
+                <img src="http://files.123inventatuweb.com/eb/64/eb64228c-cbcb-4d1b-a535-ccec961abb27.png"
+                    id="alumni_foto" class="img-fluid">
+            </div>
+        </div> -->
     </div>
-    
+
     <!------ Footer ------>
     <footer class="container-fluid site-footer">
 
@@ -183,5 +229,3 @@
 </body>
 
 </html>
-
-
