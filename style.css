@@ -1,4 +1,5 @@
 
+
  body, html {
     height: 100%;
     margin: 0;
@@ -992,7 +993,6 @@ form .form-control:placeholder {
     background-color: transparent;
     border-color: transparent;
 }
-
 /* 
 .map-area{
     padding-left: 100px;
