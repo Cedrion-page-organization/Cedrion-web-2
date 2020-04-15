@@ -113,8 +113,9 @@ img{
     height: auto;
     margin: 0;
     color: white;
+    background: linear-gradient(to bottom, #330867, rgba(177, 150, 234, 0));
     /* background: linear-gradient(to bottom, purple, rebeccapurple);  */
-    background: linear-gradient(to bottom, #5922D5, #B096EA); 
+    /* background: linear-gradient(to bottom, #5922D5, #B096EA);  */
     /* height: 30vh;
     width: 100%;
     padding-left: 45px; */ 
@@ -226,7 +227,8 @@ i{
 
 .site-footer {
     /* background: linear-gradient(to bottom, purple, rebeccapurple);  */
-    background: linear-gradient(to bottom, #5922D5, #B096EA);
+    /* background: linear-gradient(to bottom, #5922D5, #B096EA); */
+    background: linear-gradient(to bottom, #330867, rgba(177, 150, 234, 0));
     padding: 30px 0;
    }
  
