@@ -17,6 +17,7 @@ html{
     opacity: 85%;
 }
 .navbar{
+    background-color: #0F0E2E!important;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -24,8 +25,15 @@ html{
     font-size: .9rem;
     font-weight: 400;
     /* box-shadow: 0 2px 4px 0 rgb(0, 0, 0, .5); */
-    background-color: #2c2c2c;
+    /* background-color: #2c2c2c; */
+    
+    
 }
+/* .bg-dark{
+    background-color: #0F0E2E!important!;
+} */
+
+
 
 .nav-link{
     font-size: 20px;
@@ -51,19 +59,22 @@ html{
     margin: 0px;
     padding: 0px;
     /* background-color: #2c2c2c; */
-    background-color: rgb(52, 58, 64);
+    /* background-color: rgb(52, 58, 64); */
+    background-color: #0F0E2E;
 }
 
 body{
     font-size: 1rem;
     /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Monda', sans-serif;
     font-weight: 300;
     margin: 0;
     padding: 0;
     /* background-color: #1D2326; */
     /* background-color: #252627;    */
     /* background-color: #2c2c2c; */
-    background-color: rgb(52, 58, 64);
+    /* background-color: rgb(52, 58, 64); */
+    background-color: #0F0E2E;
 }
 
 body p{
@@ -84,6 +95,7 @@ img{
     height: auto;
     border: #5541ad 2px solid;
     text-align: justify;
+    
     
     
     
@@ -110,7 +122,8 @@ img{
     height: auto;
     margin: 0;
     color: white;
-    background: linear-gradient(to bottom, #330867, rgba(177, 150, 234, 0));
+    background-color: #0F0E2E;
+    /* background: linear-gradient(to bottom, #330867, rgba(177, 150, 234, 0)); */
     /* background: linear-gradient(to bottom, purple, rebeccapurple);  */
     /* background: linear-gradient(to bottom, #5922D5, #B096EA);  */
     /* height: 30vh;
@@ -221,6 +234,7 @@ h2{
     margin: auto;
     margin-bottom: 10%;
     margin: 0;
+    height: 40%;
     
 }
 
@@ -395,7 +409,7 @@ footer{
 }
  
  .fa:hover{
-     color:rgb(250, 95, 229); 
+     color:#00FFFB;
      /*Alternative colour---  color:  #2c2c2c; */
      text-decoration: none;
 }
@@ -407,7 +421,7 @@ footer{
  }
  
  .fab:hover{
-     color:rgb(250, 95, 229); 
+     color: #00FFFB;
      /*Alternative colour---   color:  #2c2c2c; */
      text-decoration: none;
  } 
