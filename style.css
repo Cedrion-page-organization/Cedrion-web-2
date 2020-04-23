@@ -16,7 +16,7 @@ body{
   /*   font-family: 'Open Sans', sans-serif; */
     font-family: 'Monda', sans-serif;
    /*  background-color: #2C2C2C; */
-    background-color: #202021;
+    background-color: #0F0E2E;
  /*  display: flex;
     flex-direction: column; 
      min-height: 100%; */
@@ -36,9 +36,67 @@ body{
   }
 
 
+/* Navbar */
+.sticky-top{
+    opacity: 85%;
+}
+.navbar{
+    background-color: #0F0E2E!important;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 10vh;
+    font-size: .9rem;
+    font-weight: 400;
+    /* box-shadow: 0 2px 4px 0 rgb(0, 0, 0, .5); */
+    /* background-color: #2c2c2c; */
+    
+    
+}
+/* .bg-dark{
+    background-color: #0F0E2E!important!;
+} */
 
+
+
+.nav-link{
+    font-size: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #00FFFB;
+}
+
+.logo{
+    min-width: 117px;
+    max-width: 87px;
+    margin-left: 20px;
+    border: none;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #2c2c2c; */
+    /* background-color: rgb(52, 58, 64); */
+    background-color: #0F0E2E;
+}
+
+
+
+.active a{
+    color: #00FFFB;
+}
 /* navbar */
-.fixed-top{
+/* .fixed-top{
     opacity: 85%;
 }
 
@@ -49,7 +107,7 @@ body{
     justify-content: flex-end;
     font-weight: bold;
     font-size: 1.2rem;
-}
+} */
 
 /* Navbar marker which is a circle that appears on each link right now it is not responsive. */
 /* .nav-marker{
@@ -62,21 +120,54 @@ body{
 } */
 
 
-
 /* Home section */
 #home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(https://s4.gifyu.com/images/Background-image-spiral-dark.md.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(https://s4.gifyu.com/images/Background-image-spiral-dark.md.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+}
+
+
+
+
+
+
+
     /* background: url('https://cdn.pixabay.com/photo/2014/01/04/12/34/street-238458_1280.jpg') no-repeat center center fixed;  */
-    background: url('https://s6.gifyu.com/images/flash-flipped.jpg') no-repeat center center fixed; 
+    /* background: url('https://s6.gifyu.com/images/flash-flipped.jpg') no-repeat center center fixed;  */
+   /*  background: url('https://cdn.pixabay.com/photo/2014/10/27/22/06/flash-505865_1280.jpg') no-repeat center center fixed; 
     display: table;
     height: 100vh;
     position: relative;
     width: 100%;
-    background-size: cover;
+    background-size: cover; */
   /*   background-color: rgb(49, 4, 49); */
    /*  box-shadow: inset 29px 33px 500px 600px rgba(62, 4, 68, 0.692);  */
   /*  box-shadow: inset 29px 33px 500px 600px rgba(9, 1, 10, 0.692); */ 
-    box-shadow: inset 29px 33px 500px 600px rgba(9, 1, 10, 0.829); 
+  /*   box-shadow: inset 29px 33px 500px 600px rgba(9, 1, 10, 0.829);  */
     /* box-shadow: inset 29px 33px 154px 400px rgba(255, 255, 255, 0.527); */
+   /*  background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)); */  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589));  *//* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -110,6 +201,19 @@ body{
     box-shadow: inset 0 -2em 0 rgba(147,54,255, 0.5);
   } 
  
+  
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-style: none;
+}
+
+
+.col-12 {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /* ----------iphone 5 media query ---------- */
@@ -313,11 +417,15 @@ and (-webkit-min-device-pixel-ratio: 1) {
     /* background: linear-gradient(to bottom, purple, rebeccapurple); */
     /* Alternative colour--- */
    /*  background: linear-gradient(to bottom, #330867, #B096EA);    */
-    background: linear-gradient(to bottom, #330867, rgba(177, 150, 234, 0));  
+    background: linear-gradient(to top, #330867, rgba(177, 150, 234, 0));  
+
+
+    background-image: linear-gradient(  rgba(177, 150, 234, 0),#330867), rgba(177, 150, 234, 0);
     height: 35vh;
     width: 100%;
     padding-left: 45px;
 }
+
 
 .about-us h1{
     margin-top: 70px;
@@ -552,7 +660,7 @@ hr {
 
 /* device features content and images */
 .device-features{
-   /*  border: 3px solid red; */
+    /* border: 3px solid red; */ 
     display: table-cell;
     justify-content:center;
     width: 100%;
@@ -567,8 +675,8 @@ hr {
   .device-features  p{
     color: white;
     font-size: 1.3rem;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 20%;
+    padding-left: 20%;
   }  
 
 
@@ -589,13 +697,12 @@ hr {
 
 
 .device-img{
-   /*  border: 3px solid red;
-    display: flex; */
-    display:flex;
+ /*  border: 3px solid red; */
+    display: flex;
    /*  margin:10px; */
-   /*  border:1px solid blue; */
+/*   border:1px solid blue;  */
     justify-content:center;
-    padding-top: 10px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 
@@ -607,7 +714,7 @@ hr {
     transition: transform .2s;
     margin: 0 auto;
     cursor: pointer;
-/*     border:1px solid red; */
+ /*  border:1px solid red;  */
 }
 
 .device-img img:hover{
