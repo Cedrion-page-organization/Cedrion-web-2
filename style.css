@@ -431,7 +431,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 
 .about-us h1{
-    margin-top: 70px;
+    margin-top: 40px;
     text-align: left;
     font-size: 2.2rem;
     font-weight: bold;
@@ -446,15 +446,19 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 
 /* iphone 5 media query */
- @media (max-width: 360px) { 
+ @media (min-width:320px) and (max-height: 680px)  { 
+    .about-us{
+        height: 46vh;
+    }
    
     .about-us h1{
         margin-top: 50px;
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
     .about-us p{
-       font-size: 0.9rem;
-       padding-bottom: 2%;
+       font-size: 1.1rem;
+       padding-bottom: 10%;
+       padding-top: 6%;
     }
 
 } 
@@ -557,9 +561,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 
 .corona-image img:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
   }
 
 
@@ -633,14 +637,14 @@ and (-webkit-min-device-pixel-ratio: 1) {
             padding-bottom: 5%;
         }
                 
-        .corona-image{
-            padding-top: 6.5%; 
+       /*  .corona-image{
+            padding-top: 6.5%;  */
         /*  border: 1px solid pink; */
-}
+/* } */
         .corona-image img{
            /*  padding: 50px; */
-            max-width: 440px;
-            max-height: 440px;
+            max-width: 450px;
+            max-height: 450px;
         }
 
         
@@ -743,6 +747,12 @@ hr {
 
   }  
 
+ .device-images{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+ 
+
 
 .device-img{
  /*  border: 3px solid red; */
@@ -774,13 +784,17 @@ hr {
 .device-heading h5 {
     justify-content: center;
     text-align: center;
-   /*  color: white; */
-   /*  color: #0F0E2E; */
-   color: #69696C;
-  /*   padding-bottom: 50px; */
+    color: #69696C;
+
 }
 
 
+.device-heading p {
+    justify-content: center;
+    text-align: center;
+    font-size:0.8rem;
+    color: #69696C;
+}
 
 
 /* iphone 5 media query */
@@ -836,11 +850,6 @@ hr {
            padding-top: 20%;
        }
       
-
-            
-        .device-heading h5 {
-         padding-bottom: 15%; 
-}
 }
 
 
