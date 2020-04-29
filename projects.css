@@ -283,7 +283,7 @@ body h2{
 /* CONTAINER 1 NEW TRY*/
 
 #projects{
-    background-color: white;
+    /* background-color: white; */
     margin-right: auto;
     margin-left: auto;
     margin-top: 2%;
@@ -416,6 +416,9 @@ body h2{
 .container_fluid_project3 p{
     color: #69696C;
     padding: 1.5rem;
+}
+#space{
+    padding: 1rem;
 }
 
 /* Footer */
