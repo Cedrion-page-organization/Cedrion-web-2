@@ -28,9 +28,10 @@ html{
 }
 
 /* Navbar */
-.sticky-top{
+
+/* .sticky-top{
     opacity: 85%;
-}
+} */
 .navbar{
     background-color: #161617!important;
     width: 100%;
@@ -99,6 +100,15 @@ body p{
     color: white;
     margin-top: 10px;
     font-size: 1.3rem;
+    line-height: 2.6rem;
+    /* padding-left: 3%;
+    padding-right: 3%; */
+    /* padding-left: 1%;
+    padding-right: 1%;
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 2.6rem; */
+    /* padding-top: 15px; */
 }
 
 body h2{
@@ -125,6 +135,7 @@ img{
     background-repeat: no-repeat;
     margin: 0;     
 } 
+
 
 
 /*  Support container  */
@@ -158,8 +169,18 @@ img{
 
 .container-fotos{
     display: flex;
+    /* padding-bottom: 8%; */
+    padding-top: 2%;
+    padding-bottom: 5%;
     /* margin-left: 21rem;
     margin-right: 21rem; */
+}
+
+.container-fotos-one{
+    display: flex;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    
 }
 
 
@@ -170,8 +191,8 @@ section{
     width: 100%;
     height: 50vh;
     background: #43C6AC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/hands2.png);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/hands2.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/support.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/support.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     /* background-attachment: fixed; */
     position: relative;
@@ -184,6 +205,8 @@ section{
     width: 100%;
     border-style: none;
     max-width: 100%;
+    background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589));  /* Chrome 10-25, Safari 5.1-6 */
+    
     
 }
 
@@ -349,8 +372,9 @@ section{
     padding: 2.5rem;
     height: 50%;
     padding-bottom: 0;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     margin-bottom: 5%;
+    
 }
 /* .container-fluid_accelerators{
     padding: 2.5rem;
@@ -360,7 +384,16 @@ section{
     margin-bottom: 5%;
 
     
+
+    
 } */
+#incubators h2{
+    padding-right: 3%;
+
+
+
+
+}
 .row_image{
     height: 60%;
 }
@@ -438,7 +471,27 @@ hr{
     padding-bottom: 0;
     margin-top: 5%;
     margin-bottom: 5%;
+    /* background-color: white; */
+    /* background-color: #e6e3e3; */
+    /* background: linear-gradient(to left, #191654, #398a7a); */
+    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589));
 }
+
+.container-fluid_european p{
+    color: white;
+}
+
+#european-grants{
+    color: white;
+}
+
+/* .one-edge-shadow{
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px #777171;
+
+} */
+
 
 h2{
    color: black ;
@@ -520,7 +573,7 @@ i{
 .container-fluid_national{
     padding: 2.5rem;
     margin-top: 5%;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
     
 }
 
@@ -592,7 +645,7 @@ i{
      /*  margin-top: auto;  */
       background: #161617;
       padding-top: 30px; 
-      padding-bottom: 30px; 
+      /* padding-bottom: 30px;  */
      
   }
   
@@ -665,15 +718,19 @@ i{
 .cta-button-3{
     /*  border: 2px solid green;  */
    /*  display: table-cell;  */
+    /* text-align: end;
+    width: 100%;
+    padding-bottom: 50px;
+    margin-top: 10%; */
     text-align: end;
     width: 100%;
     padding-bottom: 50px;
-    margin-top: 10%;
 }
 
 .cta-button-3 {
     /*   text-align: center;  */
-        padding: 5%;
+        /* padding: 5%; */
+        padding-top: 4%;
        /*  margin-top: 600px; */
     
 }
