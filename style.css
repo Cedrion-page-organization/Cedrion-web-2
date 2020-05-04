@@ -64,7 +64,6 @@ body{
 
 
 
-
 .nav-link{
     font-size: 20px;
     justify-content: flex-end;
@@ -75,6 +74,7 @@ body{
 .navbar-dark .navbar-nav .nav-link {
     color: white;
 }
+
 .navbar-dark .navbar-nav .nav-link:hover{
     /* color: #00FFFB; */
  /*   color: #9336FF;  */
@@ -98,7 +98,6 @@ body{
    /*  background-color: rgba(57, 57, 59, 0.616);
     border-radius: 5px; */
 }
-
 
 .logo{
     min-width: 117px;
