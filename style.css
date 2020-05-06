@@ -1,6 +1,5 @@
 
-
- body, html {
+body, html {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -99,6 +98,7 @@ body{
     border-radius: 5px; */
 }
 
+
 .logo{
     min-width: 117px;
     max-width: 87px;
@@ -138,26 +138,6 @@ body{
      on the container's size */
   background-size: cover;
 }
-
-
-/* 
-.cta-button-home {
-    text-align: center; 
-  }
-
-.cta-button-home a {
-    display: inline-block;
-    color: white;
-    opacity: 10%;
-    text-decoration: none;
-    font-size: 6rem;
-  }
-  
- .cta-button-home a:hover {
-    color: blue;
-  } 
-  */
-
 
 
 
@@ -207,7 +187,7 @@ body{
 
 
 /* ----------iphone 5 media query ---------- */
-@media (max-width: 575.98px) { 
+@media (max-width: 360px) { 
     #home .cta-button {
           margin-top: 50px; 
       }
@@ -229,7 +209,10 @@ body{
     }
 }
  */
-/* Home section Heading and subheading */
+
+
+
+/* -------------Home section Heading and subheading -----------------*/
 
 
 
@@ -248,14 +231,16 @@ body{
    .landing-box-1 h1 {
     text-align: center;
        font-size: 2em;
-       margin-top: 110px;
+       margin-top: 100px;
        color: white;
        /* letter-spacing: 3px; */
        font-weight: bold;
    } 
+
+
    .landing-box-1 p{
        align-items: center;
-       font-size: 1em;
+       font-size: 1.3rem;
        color: white;
        letter-spacing: 2px;
        line-height: 2rem;
@@ -271,9 +256,7 @@ body{
 
 
 
-
-
-/* Brightness-zoom Container */
+/*------------ Brightness-zoom Container ----------------*/
 .plasma-image img {
     transition: transform 2s, filter 1.5s ease-in-out;
     transform-origin: center center;
@@ -283,8 +266,8 @@ body{
      cursor: pointer;
      height: auto; 
      width: auto; 
-     max-width: 250px;
-     max-height: 250px; 
+     max-width: 220px;
+     max-height: 220px; 
   }
   
   /* The Transformation */
@@ -294,7 +277,7 @@ body{
   }
 
 
- /* code for image brighter on zoom and hover: https://w3bits.com/css-image-hover-zoom/ brighten on zoom
+ /*  https://w3bits.com/css-image-hover-zoom/ brighten on zoom
  */
 
 
@@ -319,11 +302,40 @@ body{
     }
   }
 
-/*  Code for gllowing text: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_glowing_text */
+
+
+/*   https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_glowing_text */
 
 
 
-/*---------------- Media query for larger screens (desktop)---------------- */
+/*  ----------iphone 5 media query ----------  */
+@media (max-width: 360px) { 
+    .landing-box-1 h1 {
+        margin-top: 60px;
+        font-size: 1.5rem;
+       } 
+
+       .landing-box-1 p {
+        font-size: 1.1rem;
+       } 
+   
+    .plasma-image img {
+         max-width: 180px;
+         max-height: 180px; 
+      }
+
+      .landing-box-2 {
+        padding: 35px;
+    }
+    
+}
+
+
+
+
+
+/*  ----------large screen and desktop media query ----------  */
+
     @media (min-width:770px) and (max-height: 1366px)   {
         .landing-box-1{
             padding-top: 90px; 
@@ -340,13 +352,10 @@ body{
        /*  .corona-image{
             padding-top: 6.5%;  */
         /*  border: 1px solid pink; */
-/* } */.highlight {
-            font-size: 4rem;
-}
+    /* } */.highlight {
+                font-size: 4rem;
+            }
    
-   
-
-
         .landing-box-1 p{
             font-size: 1.8rem;
             letter-spacing: 2px;
@@ -358,18 +367,10 @@ body{
             max-width: 480px;
             max-height: 480px;
         }
-
-        
-   
-        /* #about .cta-button-2 a{
-            margin-top: none;
-        } */
     }
 
 
-
-
-/*--------- padding for containers-----------*/
+/*--------------- padding for containers ------------------*/
 .padding{
     padding: 50px 0;
 }
@@ -378,48 +379,46 @@ body{
     width: 100%;
 }
 
-
-
-/*-----------what we do content and background colour -----------*/
+/* -----------what we do content and background colour ------------------*/
 .about-us{
     color: white;
    /*  background-color: #0F0E2E; */
    background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
-    height: 35vh;
+    height: 36vh;
     width: 100%;
-    padding-left: 45px;
+    /* padding-left: 45px; */
 }
 
 
 .about-us h1{
-    margin-top: 40px;
-    text-align: left;
+    margin-top: 45px;
+    text-align: center;
     font-size: 2.2rem;
     font-weight: bold;
 }
 
 .about-us p{
     font-size: 1.2rem;
-    text-align: left;
-    padding-top: 8px;
-    padding-right: 4%;
+    text-align: center;
+    padding-top: 15px;
+ /*    padding-right: 4%; */
 }
 
 
-/* iphone 5 media query */
- @media (min-width:320px) and (max-height: 680px)  { 
+/* -----------iphone 5 media query --------------*/
+ @media (max-width:370px) and (max-height: 680px)  { 
     .about-us{
         height: 40vh;
     }
    
     .about-us h1{
-        margin-top: 50px;
+        margin-top: 28px;
         font-size: 1.9rem;
+        padding-left: 0;
     }
     .about-us p{
-       font-size: 1.1rem;
-       padding-bottom: 10%;
-       padding-top: 6%;
+       font-size: 1.2rem;
+       padding-top: 10px;
     }
 
 } 
@@ -434,19 +433,22 @@ body{
     .about-us h1{
         margin-top: 120px;
         font-size: 2.8rem;
+        text-align: left;
+        padding-left: 2%;
     }
     .about-us p {
+        text-align: left;
         font-size: 1.8rem;
         padding-top: 20px;
         line-height: 27px;
         padding-right: 20%;
         line-height: 2.6rem;
+        padding-left: 2%;
 
     }
 }
 
-
-/*--------- Corona discharge image and text --------- */
+/* --------------- Corona discharge image and textb------------------ */
 
 /* .corona-discharge{
     border: 1px solid pink;
@@ -464,8 +466,6 @@ body{
     padding-left: 4.5%;
     padding-right: 4.5%;
     text-align: left; 
-    /* color: white; */
-    /* color: #0F0E2E; */
     color: #69696C;
     font-size: 1.1rem;
     padding-top: 15px;
@@ -484,7 +484,6 @@ body{
     align-items: center;
     transition: transform 2s, 1.5s ease-in-out;
     margin: 0 auto;
-   /*  padding-left: 70px;  */
     cursor: pointer;
     height: auto; 
     width: auto; 
@@ -524,7 +523,9 @@ body{
     /* box-shadow: inset 0 -1.5em 0 rgba(208, 0, 227, 0.3);  */
   }
 
-    @media (min-width:600px) and (max-height: 1366px)   {
+
+/* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
+@media (min-width:770px) and (max-height: 1366px)    {
         .corona-discharge h2{
             font-size: 2rem;
             padding-bottom: 5%;
@@ -546,10 +547,9 @@ body{
             line-height: 2.6rem;
         }
 
-        /* #about .cta-button-2 a{
-            margin-top: none;
-        } */
     }
+
+
 
 
 /* Line separator between about and device features section */
@@ -565,7 +565,7 @@ body{
 
 
 
-/* device features content and images */
+/* ---------------device features content and images----------------- */
 .device-features{
     /* border: 3px solid red; */ 
     display: table-cell;
@@ -574,7 +574,7 @@ body{
     padding-bottom: 50px;
     background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
     /* background-color: #0F0E2E; */
-    height: 35vh;
+    height: 38vh;
   }  
 
  .device-features h2, p{
@@ -587,9 +587,9 @@ body{
     font-weight: bold;
     padding-bottom: 30px;
     font-size: 2.2rem;
-    margin-top: 30px;
-
+    margin-top: 45px;
   }  
+
   .device-features  p{
     color: white;
     font-size: 1.2rem;
@@ -598,8 +598,6 @@ body{
     padding-left: 20%; */
   }  
 
-
-  
 
  .device-images{
     padding-right: 15%;
@@ -651,20 +649,32 @@ body{
 }
 
 
-/* iphone 5 media query */
-@media (max-width: 320px) { 
+/* ------------iphone 5 media query------------- */
+@media (max-width: 360px) {
+    .device-features{
+        height: 40vh;
+      }  
+     
     .device-features{
          padding-bottom: 5%;
        }  
     
   .device-features h2 {
     font-size: 1.5rem;
+    padding-bottom: 15px;
+    margin-top: 30px;
+  }  
 
+  .device-features  p{
+    font-size: 1.1rem;
   }  
 
 }
 
-@media (min-width:600px) and (max-height: 1366px)   {
+
+
+/* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
+@media (min-width:770px) and (max-height: 1366px)   {
     .device-features h2{
         font-size: 2rem;
         padding-top: 2%;
@@ -685,7 +695,7 @@ body{
 
 
 
-/* Footer */
+/* --------------   Footer -----------------*/
 /* .site-footer {
    background: linear-gradient(to bottom, purple, rebeccapurple); 
     /* Alternative colour--- background: linear-gradient(to bottom, #5922D5, #B096EA);  */
@@ -725,10 +735,17 @@ body{
 .copyright h4{
     color: white;
     font-size: 1rem;
+   /*  font-weight: bold; */
     text-align: center;
     padding-top: 4%;
 }
 
+/* .translate h4{
+    color:#bb51ce;
+    font-size: 1rem;
+    text-align: left;
+}
+ */
 .fa {
     padding: 10px 15px 5px;
     font-size: 1.2rem;
@@ -738,7 +755,6 @@ body{
 }
 
 .fa:hover{
-    /* color:#9336FF;   */
     color: #bb51ce;  
     text-decoration: none;
 }
@@ -752,22 +768,27 @@ body{
 }
 
 .fab:hover{
-   /*  color:#9336FF;   */
-   color: #bb51ce;  
+     color: #bb51ce;  
     text-decoration: none;
 } 
 
 
 
-/* Scroll up to top button */
+/*------------- Scroll up to top button----------------- */
   
 .cta-button-3{
+    /*  border: 2px solid green;  */
+   /*  display: table-cell;  */
     text-align: end;
     width: 100%;
+    /* padding-bottom: 60px; */
 }
 
  .cta-button-3 {
+    /*   text-align: center;  */
         padding: 2%;
+       /*  margin-top: 600px; */
+    
     }
   
  .cta-button-3 a {
@@ -783,14 +804,16 @@ body{
     .cta-button-3 a:hover {
         color: white;
         text-decoration: none;
-       /*  box-shadow: inset 0 -2em 0 rgba(147,54,255, 0.5); */
         box-shadow: inset 0 -2em 0 rgba(187, 81, 206, 0.5);
     } 
 
 
+/* I think you need to find a way to identify the target url, and if it is the home page, add the fixed property. If not, then remove the fixed property
+ */
 
-/* ---------------- Contact Us page---------------- */
 
+ 
+/*------------ Contact-us do content and background colour------------------- */
 .google-maps{
     overflow:hidden;
     padding-bottom:40%;
@@ -813,6 +836,7 @@ body{
 
 .contact-box-1{
     background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url('./img/contact-page-background-image.png');
+  /*   opacity: 90%; */
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -857,11 +881,12 @@ body{
 
 
 /*------- contact-box-1 contact form -------*/
-
+/* 
 .form-padding{
     padding-right: 5%;
     padding-left: 5%;
-}
+} */
+
 
 #defaultContactFormName, #defaultContactFormEmail, #exampleFormControlTextarea2{
    /*  background-color:#7d7d7d; */
@@ -871,9 +896,12 @@ body{
     font-weight: bold;
 } 
 
+
 #exampleFormControlTextarea2{
     padding-bottom: 30px;
 }
+
+
 
 form .form-control::-webkit-input-placeholder { 
     color: rgb(137, 137, 148);
@@ -888,6 +916,7 @@ form .form-control:-ms-input-placeholder {
     color: white;
     font-size: 0.9rem;
   }
+  
 form .form-control:placeholder {
     color: white;
     font-size: 0.9rem;
@@ -898,7 +927,8 @@ form .form-control:placeholder {
 } 
 
 
-/*------contact-box-2 map */
+
+/*------contact-box-2 map --------- */
 .contact-box-2{
     padding-top: 80px;
     padding-bottom: 100px;
@@ -923,6 +953,8 @@ form .form-control:placeholder {
 }
 
 
+
+
  .btn{
     background-color:transparent;
     border-color: white;
@@ -943,6 +975,20 @@ form .form-control:placeholder {
 }
 
 
+
+/*---------------- Media query for larger screens (desktop)---------------- */
+@media (min-width:770px) and (max-height: 1366px)   {
+   
+    .form-padding{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    }
+    
+
+
+
+
 /* This code needs to be at the end of the style sheet */
 .row {
     margin: 0;
@@ -957,6 +1003,27 @@ form .form-control:placeholder {
     padding-right: 0;
     padding-left: 0;
 }
+
+
+#dot-nav ul{
+    list-style: none;
+}
+
+#dot-nav ul .fas{
+    color: rgba(138, 135, 138, 0.5);
+    font-size: 0.8rem;
+}
+
+
+#dot-nav ul .fas:hover{
+    color: rgb(155, 42, 207);
+    text-decoration: none;
+}
+
+#dot-nav ul > :first-child .fas {
+    color: rgb(155, 42, 207);
+    font-size: 0.8rem;
+  }
 
 
 .landing-box-1 .homeButton{
@@ -974,6 +1041,8 @@ form .form-control:placeholder {
     padding-right: 10px;
     border-radius: 4px;
     color: white;
+    
+    
 }
 
 .button2:hover {
@@ -990,3 +1059,11 @@ form .form-control:placeholder {
 @media screen and (max-width:766px){
 	.button2{display:none}
 }
+
+/* .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+ */
