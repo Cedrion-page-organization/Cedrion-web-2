@@ -94,6 +94,7 @@ body{
     /* background-color: #2c2c2c; */
     /* background-color: rgb(52, 58, 64); */
     background-color: #0F0E2E;
+   
 }
 
 body p{
@@ -375,6 +376,7 @@ section{
     /* margin-top: 5%; */
     margin-bottom: 5%;
     
+    
 }
 /* .container-fluid_accelerators{
     padding: 2.5rem;
@@ -421,10 +423,14 @@ section{
     opacity: 0.9;
     width: 45%;
     margin-top: 6%;
+    /* box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.5),
+                -15px -15px 15px rgba(0, 0, 0, 0.05); */
     /* box-shadow: 0 1px 12px gray; */
-    /* box-shadow: 2px 4px 20px rgba(147, 54, 255, 0.5); */
+    box-shadow: 2px 4px 20px rgba(147, 54, 255, 0.5);
     
 }
+
+
 
 .btndown{
     padding-left: 45%;

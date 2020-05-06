@@ -233,7 +233,7 @@ h2{
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 .row_image{
