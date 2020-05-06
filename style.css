@@ -123,8 +123,8 @@ body{
     width: 100%;
     height: 100vh;
     background: #43C6AC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(https://cdn.pixabay.com/photo/2015/05/04/20/03/purple-wallpaper-752886_1280.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(20, 11, 54, 0.692), hsla(168, 45%, 2%)), url(https://cdn.pixabay.com/photo/2015/05/04/20/03/purple-wallpaper-752886_1280.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/Homepage-background.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(20, 11, 54, 0.692), hsla(168, 45%, 2%)), url(./img/Homepage-background.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* background-size: cover; */
     /* background-attachment: fixed; */
   /* Background image is centered vertically and horizontally at all times */
@@ -582,23 +582,24 @@ body{
     vertical-align: middle;
   }  
 
+  .device-features h2 {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-size: 2.2rem;
+    margin-top: 30px;
+
+  }  
   .device-features  p{
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding-bottom: 10%;
    /*  padding-right: 20%;
     padding-left: 20%; */
   }  
 
 
-  .device-features h2 {
-    color: white;
-    font-weight: bold;
-    padding-bottom: 30px;
-    font-size: 1.8rem;
-    margin-top: 30px;
-
-  }  
+  
 
  .device-images{
     padding-right: 15%;
@@ -651,7 +652,7 @@ body{
 
 
 /* iphone 5 media query */
-@media (max-width: 575.98px) { 
+@media (max-width: 320px) { 
     .device-features{
          padding-bottom: 5%;
        }  
@@ -811,7 +812,7 @@ body{
 } */
 
 .contact-box-1{
-    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(https://s0.gifyu.com/images/Team-work-1--cropped.md.jpg);
+    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url('./img/contact-page-background-image.png');
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
