@@ -1,5 +1,6 @@
 
-body, html {
+
+ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -12,17 +13,8 @@ body, html {
 
 
 body{
-  /*   font-family: 'Open Sans', sans-serif; */
     font-family: 'Monda', sans-serif;
-   /*  background-color: #2C2C2C; */
-   /*  background-color: #0F0E2E; */
-
-  background-color: white; 
-   /* background: -webkit-linear-gradient(to right, hsl(244, 59%, 21%), hsl(168, 53%, 52%));  */ /* Chrome 10-25, Safari 5.1-6 */
-   /*  background: linear-gradient(to right, hsl(244, 59%, 21%), hsl(168, 53%, 52%));  *//* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- /*  display: flex;
-    flex-direction: column; 
-     min-height: 100%; */
+    background-color: white; 
 }
 
 
@@ -39,7 +31,12 @@ body{
   }
 
 
-/* Navbar */
+/* ------------Navbar ----------------*/
+/* .sticky-top{
+    opacity: 85%;
+} */
+
+/* --------- Translation ---------*/
 .english{
     display: block;
 }
@@ -66,9 +63,9 @@ body{
   .navbar .dropdown.show a :hover{ 
     background-color: #bb51ce;
   }
-/* .sticky-top{
-    opacity: 85%;
-} */
+
+
+
 .navbar{
  /*    background-color: #0F0E2E!important; */
     background-color: #161617!important;
@@ -77,16 +74,8 @@ body{
     padding: 0;
     min-height: 10vh;
     font-size: .9rem;
-    font-weight: 400;
-    /* box-shadow: 0 2px 4px 0 rgb(0, 0, 0, .5); */
-    /* background-color: #2c2c2c; */
-    
-    
+    font-weight: 400; 
 }
-/* .bg-dark{
-    background-color: #0F0E2E!important!;
-} */
-
 
 
 .nav-link{
@@ -101,8 +90,6 @@ body{
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
-    /* color: #00FFFB; */
- /*   color: #9336FF;  */
    color: #bb51ce; 
   background: rgba(59, 57, 59, 0.616);
  transition: background .3s;
@@ -120,8 +107,6 @@ body{
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: #bb51ce; 
-   /*  background-color: rgba(57, 57, 59, 0.616);
-    border-radius: 5px; */
 }
 
 
@@ -137,13 +122,13 @@ body{
     width: 100%;
     margin: 0px;
     padding: 0px;
-    /* background-color: #2c2c2c; */
-    /* background-color: rgb(52, 58, 64); */
     background-color: #0F0E2E;
 }
 
 
-/* Home section */
+/*--------------- Home section ---------------*/
+
+
 #home{
     position: relative;
     width: 100%;
@@ -151,51 +136,53 @@ body{
     background: #43C6AC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/Homepage-background.jpg);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgba(20, 11, 54, 0.692), hsla(168, 45%, 2%)), url(./img/Homepage-background.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* background-size: cover; */
-    /* background-attachment: fixed; */
-  /* Background image is centered vertically and horizontally at all times */
-  background-position: center center;
-  /* Background image doesn't tile */
-  background-repeat: no-repeat;
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
-  background-attachment: fixed;
-  /* This is what makes the background image rescale based
-     on the container's size */
-  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
-
+/* background: linear-gradient(to right, rgba(20, 11, 54, 0.692), hsla(168, 45%, 2%)), url(./img/Homepage-background.png); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* background-size: cover; */
+/* background-attachment: fixed; */
+/* Background image is centered vertically and horizontally at all times */
+/* background-position: center center; */
+/* Background image doesn't tile */
+/* background-repeat: no-repeat; */
+/* Background image is fixed in the viewport so that it doesn't move when 
+ the content's height is greater than the image's height */
+/* background-attachment: fixed; */
+/* This is what makes the background image rescale based
+ on the container's size */
+/* background-size: cover; */
 
 /* Scroll down button */
- #home .cta-button {
+ /* #home .cta-button {
     text-align: center; 
     padding: 5% 0;
     padding-top: 15%; 
   
-  } 
+  }  */
 
-  #home .cta-button a {
+  /* #home .cta-button a { */
   /*   border:1px solid white;  */
-    display: inline-block;
-    color:white; 
-    /* background-color: white;
-    color:#800080; */
-    text-decoration: none;
-    padding: 0.5em 0.5em;
+  /*   display: inline-block;
+    color:white;  */
+   /*  text-decoration: none;
+    padding: 0.5em 0.5em; */
     /* border-radius: 50%;  */
     /* box-shadow: inset rgba(94, 6, 75, 0.466) 0 2px 1px, inset rgba(0,0,0,0.3) 0 -2px 1px; */
    /*  font-size: 1.5em;*/
-  } 
+ /*  } 
   
-  #home .cta-button a:hover {
+  #home .cta-button a:hover { */
    /*color: white; */
-    box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3); 
+   /*  box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3);  */
     /*Alternative colour---  */
   /*   box-shadow: inset 0 -2em 0 rgba(89,34,213, 0.5); */
   /*   box-shadow: inset 0 -2em 0 rgba(147,54,255, 0.5);*/
-  } 
+/*   }  */
 
   
 /* .wave{
@@ -214,9 +201,9 @@ body{
 
 /* ----------iphone 5 media query ---------- */
 @media (max-width: 360px) { 
-    #home .cta-button {
+  /*   #home .cta-button {
           margin-top: 50px; 
-      }
+      } */
 
       #home{
         height: 105vh;
@@ -235,10 +222,7 @@ body{
     }
 }
  */
-
-
-
-/* -------------Home section Heading and subheading -----------------*/
+/* Home section Heading and subheading */
 
 
 
@@ -246,36 +230,84 @@ body{
     border: 1px solid white;
 } */
 
-
-
 .landing-box-1{
     overflow:hidden;
+   /*padding-top: 90px; */
     justify-content: flex-start; 
     align-items: center;
-    /*   padding-right: 30px; */
-    /*  padding-top: 90px; */
+  /*padding-right: 30px; */
 }
 
-   .landing-box-1 h1 {
+.landing-box-1 h1 {
     text-align: center;
-    font-size: 2.2em;
+    font-size: 2.2rem;
     margin-top: 100px;
     color: white;
-    font-weight: bold;
     /* letter-spacing: 3px; */
+    font-weight: bold;
    } 
 
 
-   .landing-box-1 p{
-       align-items: center;
-       font-size: 1.3rem;
-       color: white;
-       letter-spacing: 2px;
-       line-height: 2rem;
-       padding-top: 5%;
-   }
+.landing-box-1 p{
+    align-items: center;
+    font-size: 1.3rem;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    padding-top: 5%;
+}
 
-   .landing-box-2 {
+/* ----------- Discover more scroll to next section -------------- */
+
+.landing-box-1 .homeButton{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  /*   padding-top: 30px; */
+   
+  
+   /*  border-width: thin; */
+  
+}
+
+ .button2{
+    font-size: 1rem;
+    border: solid 1px white;
+    background-color:transparent;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+   /*  font-weight: bold; */
+    color: white;
+    
+    
+}
+
+.button2:hover {
+    color:white;
+    /* box-shadow: inset 0 -3em 0 rgba(89,34,213, 0.6); */
+    box-shadow: inset 0 -3em 0 rgba(215, 54, 255, 0.6) ;
+     /*  color:#00FFFB; */
+    background-color: transparent;
+    border-color: transparent;
+   /*  color: #69696C; */
+    /* color: #0F0E2E; */
+    text-decoration: none;
+}
+
+@media screen and (min-width:767px){
+	.button2 {display:block}
+}
+@media screen and (max-width:766px){
+	.button2{display:none}
+}
+
+
+
+/*------------ Landing-box 2 -----------------*/
+
+.landing-box-2 {
     display:flex;
     justify-content: center;
     padding: 50px;
@@ -283,8 +315,7 @@ body{
 
 
 
-
-/*------------ Brightness-zoom Container ----------------*/
+/* ---------------- Brightness-zoom Container -----------------------*/
 .plasma-image img {
     transition: transform 2s, filter 1.5s ease-in-out;
     transform-origin: center center;
@@ -303,12 +334,8 @@ body{
     filter: brightness(100%);
     transform: scale(1.2);
   }
-
-
  /*  https://w3bits.com/css-image-hover-zoom/ brighten on zoom
  */
-
-
 
 
   .highlight {
@@ -340,7 +367,7 @@ body{
 @media (max-width: 360px) { 
     .landing-box-1 h1 {
         margin-top: 60px;
-        font-size: 1.9rem;
+        font-size: 1.5rem;
        } 
 
        .landing-box-1 p {
@@ -357,18 +384,16 @@ body{
     }
 
     .highlight {
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
     
 }
 
 
 
-
-
 /*  ----------large screen and desktop media query ----------  */
 
-    @media (min-width:768px) and (max-height: 1366px)   {
+    @media (min-width:770px) and (max-height: 1366px)   {
         .landing-box-1{
             padding-top: 90px; 
             
@@ -377,31 +402,36 @@ body{
         
         
         .landing-box-1 h1 {
-         /*    padding-left: 5%; */
-            font-size: 2.8rem; 
+            padding-left: 5%;
+            font-size: 4rem;
             /* margin-top: 250px; */
         } 
-
-        .highlight {
-            font-size: 2.8rem;
-        } 
-
-        
+       /*  .corona-image{
+            padding-top: 6.5%;  */
+        /*  border: 1px solid pink; */
+/* } */.highlight {
+            font-size: 4rem;
+}
+   
         .landing-box-1 p{
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             letter-spacing: 2px;
-            /* line-height: 3rem; */
-            padding: 5%;
-        } 
-  
-        .plasma-image img{
-            max-width: 380px;
-            max-height: 380px;
+            line-height: 3rem;
         }
+
+
+        .plasma-image img{
+            max-width: 480px;
+            max-height: 480px;
+        }
+
+        /* #about .cta-button-2 a{
+            margin-top: none;
+        } */
     }
 
 
-/*--------------- padding for containers ------------------*/
+/*---------------- padding for corona and device features sections -------------------*/
 .padding{
     padding: 50px 0;
 }
@@ -410,44 +440,41 @@ body{
     width: 100%;
 }
 
-/* -----------what we do content and background colour ------------------*/
+/* ---------------------  what we do content and background colour --------------------------*/
 .about-us{
     color: white;
-   /*  background-color: #0F0E2E; */
-   background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
-/*     height: 36vh; */
+/*  background-color: #0F0E2E; */
+    background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
+    height: 36vh;
     width: 100%;
-    /* padding-left: 45px; */
+/*  padding-left: 45px; */
 }
 
 
 .about-us h1{
     margin-top: 45px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
 .about-us p{
     font-size: 1.2rem;
     text-align: center;
-    padding-bottom: 5%;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-top: 2%;
- /*    padding-right: 4%; */
+    padding-top: 15px;
+ /* padding-right: 4%; */
 }
 
 
-/* -----------iphone 5 media query --------------*/
+/*----------------- iphone 5 media query ----------------*/
  @media (max-width:370px) and (max-height: 680px)  { 
-    /* .about-us{
+    .about-us{
         height: 40vh;
-    } */
+    }
    
     .about-us h1{
         margin-top: 28px;
-        font-size: 1.5rem;
+        font-size: 1.9rem;
         padding-left: 0;
     }
     .about-us p{
@@ -460,9 +487,9 @@ body{
 
 /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
 @media (min-width:770px) and (max-height: 1366px)  {
-    /* .about-us{
+    .about-us{
         height: 45vh;
-    } */
+    }
 
     .about-us h1{
         margin-top: 120px;
@@ -482,15 +509,13 @@ body{
     }
 }
 
-/* --------------- Corona discharge image and textb------------------ */
 
-/* .corona-discharge{
-    border: 1px solid pink;
-} */
+
+/*-------------- Corona dischange section ----------------*/
 .corona-discharge h2{
     padding-left: 4.5%;
     text-align: left; 
-    font-size: 2rem;
+    /* color: white; */
     color: #0F0E2E;
     font-weight: bold;
     padding-bottom: 5%;
@@ -500,6 +525,8 @@ body{
     padding-left: 4.5%;
     padding-right: 4.5%;
     text-align: left; 
+    /* color: white; */
+    /* color: #0F0E2E; */
     color: #69696C;
     font-size: 1.1rem;
     padding-top: 15px;
@@ -510,7 +537,7 @@ body{
     display:flex;
     justify-content: center;
     padding: 50px; 
-   /*  border: 1px solid pink; */
+/*  border: 1px solid pink; */
 }
 
 
@@ -518,11 +545,18 @@ body{
     align-items: center;
     transition: transform 2s, 1.5s ease-in-out;
     margin: 0 auto;
+/*  padding-left: 70px;  */
     cursor: pointer;
     height: auto; 
     width: auto; 
     max-width: 280px;
     max-height: 280px;
+ /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  */
+ /* background-color: white; */
+/*  border-radius: 5px; */
+/*  padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%; */
 }
 
 
@@ -533,7 +567,7 @@ body{
   }
 
 
-  /* .highlight2 {
+ /*  .highlight2 {
     text-decoration: none;
     color: #0F0E2E;
     font-family: sans-serif;
@@ -548,23 +582,16 @@ body{
 
   
 
- /*  .highlight2:hover {
+  /* .highlight2:hover {
     color: #0F0E2E;
     text-decoration: none; */
     /* Alternative colour---  */
    /*  box-shadow: inset 0 -1.5em 0 rgba(89,34,213, 0.5); */
-  /*   box-shadow: inset 0 -1.5em 0 rgba(147,54,255, 0.5); */
+   /*  box-shadow: inset 0 -1.5em 0 rgba(147,54,255, 0.5); */
     /* box-shadow: inset 0 -1.5em 0 rgba(208, 0, 227, 0.3);  */
- /*  } */
+/*   }
+ */
 
- 
-/* -----------iphone 5 media query --------------*/
-@media (max-width:370px) and (max-height: 680px)  { 
-    .corona-discharge h2{
-       font-size: 1.5rem;
-    }
-
-} 
 
 /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
 @media (min-width:770px) and (max-height: 1366px)    {
@@ -589,8 +616,10 @@ body{
             line-height: 2.6rem;
         }
 
+        /* #about .cta-button-2 a{
+            margin-top: none;
+        } */
     }
-
 
 
 
@@ -601,22 +630,22 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-top: 3px solid rgb(221, 219, 219); 
-    }
-   */
+    } */
+  
 
 
 
 
-/* ---------------device features content and images----------------- */
+/*------------------ device features content and images ---------------------*/
 .device-features{
     /* border: 3px solid red; */ 
     display: table-cell;
     justify-content:center;
     width: 100%;
-/*     padding-bottom: 50px; */
+    padding-bottom: 50px;
     background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
     /* background-color: #0F0E2E; */
-  /*   height: 38vh; */
+    height: 38vh;
   }  
 
  .device-features h2, p{
@@ -627,17 +656,15 @@ body{
   .device-features h2 {
     color: white;
     font-weight: bold;
-    font-size: 2rem;
+    padding-bottom: 30px;
+    font-size: 2.2rem;
     margin-top: 45px;
   }  
 
   .device-features  p{
     color: white;
     font-size: 1.2rem;
-    padding-bottom: 5%;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-top: 2%;
+    padding-bottom: 10%;
    /*  padding-right: 20%;
     padding-left: 20%; */
   }  
@@ -693,15 +720,15 @@ body{
 }
 
 
-/* ------------iphone 5 media query------------- */
+/* iphone 5 media query */
 @media (max-width: 360px) {
-    /* .device-features{
+    .device-features{
         height: 40vh;
-      }   */
-   /*   
+      }  
+     
     .device-features{
          padding-bottom: 5%;
-       }   */
+       }  
     
   .device-features h2 {
     font-size: 1.5rem;
@@ -711,11 +738,9 @@ body{
 
   .device-features  p{
     font-size: 1.1rem;
-    padding-top: 0;
   }  
 
 }
-
 
 
 /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
@@ -740,7 +765,7 @@ body{
 
 
 
-/* --------------   Footer -----------------*/
+/* ---------------- Footer ------------------*/
 /* .site-footer {
    background: linear-gradient(to bottom, purple, rebeccapurple); 
     /* Alternative colour--- background: linear-gradient(to bottom, #5922D5, #B096EA);  */
@@ -748,8 +773,8 @@ body{
   }  */
 
 #footer{
-  /*   width: 100%; */
-   /*  margin-top: auto;  */
+/*  width: 100%; */
+/*  margin-top: auto;  */
     background: #161617;
     padding-top: 30px; 
     padding-bottom: 30px; 
@@ -758,18 +783,16 @@ body{
 
 
 .footer-box{
-/*    border:1px solid blue;  */
+/*   border:1px solid blue;  */
     display: flex;
     justify-content: center;
 }
 
 
 .social-icons{
- /*  border:1px solid green;  */
+ /* border:1px solid green;  */
     text-align: center;
 }
-
-
 
 /*  
 .copyright {
@@ -780,7 +803,7 @@ body{
 .copyright h4{
     color: white;
     font-size: 1rem;
-   /*  font-weight: bold; */
+/*  font-weight: bold; */
     text-align: center;
     padding-top: 4%;
 }
@@ -791,6 +814,8 @@ body{
     text-align: left;
 }
  */
+
+
 .fa {
     padding: 10px 15px 5px;
     font-size: 1.2rem;
@@ -800,7 +825,12 @@ body{
 }
 
 .fa:hover{
-    color: #bb51ce;  
+   /*  color:#00FFFB; */
+  /*   color:#9336FF;   */
+  color: #bb51ce;  
+   /*  color:rgb(250, 95, 229);  */
+    /*Alternative colour---   */
+   /*  color:  #2c2c2c; */
     text-decoration: none;
 }
 
@@ -813,18 +843,24 @@ body{
 }
 
 .fab:hover{
+    /* color:rgb(250, 95, 229);  */
+    /*Alternative colour--- */
+    /* color:  #2c2c2c;  */
+  /*    color:#9336FF;  */
      color: #bb51ce;  
+/*     color:#00FFFB; */
     text-decoration: none;
 } 
 
 
 
-/*------------- Scroll up to top button----------------- */
+/*-------------- Scroll up to top button -----------------*/
   
 .cta-button-3{
     /*  border: 2px solid green;  */
    /*  display: table-cell;  */
-    text-align: end;
+ /*    text-align: end; */
+    text-align: center;
     width: 100%;
     /* padding-bottom: 60px; */
 }
@@ -850,45 +886,105 @@ body{
         color: white;
         text-decoration: none;
         box-shadow: inset 0 -2em 0 rgba(187, 81, 206, 0.5);
+          /* Alternative colour */
+       /*  box-shadow: inset 0 -2em 0 rgba(89,34,213, 0.5);  */
+       /* box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3); */ 
+       /* box-shadow: inset 0 -2em 0 rgba(250, 95, 229, 0.3); */
+     
     } 
 
+
+/* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
+@media (min-width:770px) and (max-height: 1366px)   {
+   
+    .cta-button-3{
+        text-align: end;
+    }
+
+}
+
+/*-------------- Scroll up to top button -----------------*/
+  
+.cta-button-4{
+    /*  border: 2px solid green;  */
+   /*  display: table-cell;  */
+ /*    text-align: end; */
+    text-align: center;
+    width: 100%;
+    /* padding-bottom: 60px; */
+}
+
+ .cta-button-4 {
+    /*   text-align: center;  */
+        padding: 2%;
+       /*  margin-top: 600px; */
+    
+    }
+  
+ .cta-button-4 a {
+    border:1px solid white; 
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+    border-radius: 50%;
+    font-size: 1.5em;
+    }
+    
+    .cta-button-4 a:hover {
+        color: white;
+        text-decoration: none;
+        box-shadow: inset 0 -2em 0 rgba(187, 81, 206, 0.5);
+          /* Alternative colour */
+       /*  box-shadow: inset 0 -2em 0 rgba(89,34,213, 0.5);  */
+       /* box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3); */ 
+       /* box-shadow: inset 0 -2em 0 rgba(250, 95, 229, 0.3); */
+     
+    } 
+
+
+/* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
+@media (min-width:770px) and (max-height: 1366px)   {
+   
+    .cta-button-4{
+        display: none;
+    }
+
+}
+
+
+
+/* ---------------- Contact Us page---------------- */
 
 /* I think you need to find a way to identify the target url, and if it is the home page, add the fixed property. If not, then remove the fixed property
  */
 
-
- 
-/*------------ Contact-us do content and background colour------------------- */
-.google-maps{
-    overflow:hidden;
-    padding-bottom:40%;
-    position:relative;
-    height:0;
-}
-.google-maps iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-    padding-right: 10%;
-    padding-left: 10%;
-}
+/*------- contact-box-1 contact form -------*/
+/* 
+.form-padding{
+    padding-right: 5%;
+    padding-left: 5%;
+} */
 
 /* .box{
     border: 1px solid white;
 } */
 
 .contact-box-1{
+    /*  background: url("https://s0.gifyu.com/images/Team-work-1--cropped.md.jpg") no-repeat center center fixed; */
     background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url('./img/contact-page-background-image-2.jpg');
   /*   opacity: 90%; */
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
+ /*     box-shadow: inset 29px 33px 500px 600px rgba(9, 1, 10, 0.692); */
+     /* padding: 10px 30px 10px; */
      overflow:hidden;
      padding-top: 90px;
      padding-bottom: 100px;
+/*   padding-right: 30px; */
+
  }
  
  
@@ -924,13 +1020,6 @@ body{
     color: rgb(201, 166, 206);
 }
 
-
-/*------- contact-box-1 contact form -------*/
-/* 
-.form-padding{
-    padding-right: 5%;
-    padding-left: 5%;
-} */
 
 
 #defaultContactFormName, #defaultContactFormEmail, #exampleFormControlTextarea2{
@@ -971,36 +1060,8 @@ form .form-control:placeholder {
     color: white;
 } 
 
-
-
-/*------contact-box-2 map --------- */
-.contact-box-2{
-    padding-top: 80px;
-    padding-bottom: 100px;
-    padding-right: 30px;
-}
- 
- .contact-box-2 h6{
-    margin-top: 60px;
-    margin-bottom: 20px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #69696C;
-    padding-left: 10%;
-}
-
-.contact-box-2 p{
-    text-align: start;
-    font-size: 1rem;
-    color: #69696C;
-    line-height: 5px;
-    padding-left: 10%;
-}
-
-
-
-
- .btn{
+/*---------------- send button ----------------*/
+.btn{
     background-color:transparent;
     border-color: white;
     font-weight: bold;
@@ -1021,6 +1082,56 @@ form .form-control:placeholder {
 
 
 
+
+/*---------------contact-box-2 ----------*/
+.contact-box-2{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-right: 30px;
+}
+ 
+ .contact-box-2 h6{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #69696C;
+    padding-left: 10%;
+/*     color: white;  */
+}
+
+.contact-box-2 p{
+    text-align: start;
+    font-size: 1rem;
+    color: #69696C;
+    line-height: 5px;
+    padding-left: 10%;
+/*     color: white; */
+}
+
+
+/*--------------  Map -------------*/
+ 
+.google-maps{
+    overflow:hidden;
+    padding-bottom:40%;
+    position:relative;
+    height:0;
+}
+.google-maps iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+
+
+
 /*---------------- Media query for larger screens (desktop)---------------- */
 @media (min-width:770px) and (max-height: 1366px)   {
    
@@ -1030,8 +1141,35 @@ form .form-control:placeholder {
     }
     }
     
+/* 
+.map-area{
+    padding-left: 100px;
+}
 
 
+.map-area h6{
+    color: white;
+}
+
+
+.map{
+    border-radius: 5px;
+} */
+/* .map-container-6{
+    overflow:hidden; */
+    /* padding-bottom:56.25%; */
+  /*   position:relative;
+   
+    } */
+    /* .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    padding: 5%; */
+   /*  width:650px; 
+    height: 350px; */
 
 
 /* This code needs to be at the end of the style sheet */
@@ -1050,7 +1188,7 @@ form .form-control:placeholder {
 }
 
 
-#dot-nav ul{
+/* #dot-nav ul{
     list-style: none;
 }
 
@@ -1068,42 +1206,59 @@ form .form-control:placeholder {
 #dot-nav ul > :first-child .fas {
     color: rgb(155, 42, 207);
     font-size: 0.8rem;
-  }
+  } */
 
 
-.landing-box-1 .homeButton{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+/* 
+#dot-nav{    
+	right: 10px;
+	top: 50%;
+	margin-top: -50px;
+	height: 100px;
+	z-index: 999;
 }
 
- .button2{
-    font-size: 1rem;
-    border: solid 1px white;
-    background-color:transparent;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 4px;
-    color: white;
-    
-    
+#dot-nav ul {
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+#dot-nav li {
+	position: relative;
+	background-color: #bdc3c7;
+	border:3px solid #bdc3c7;
+	border-radius: 15px 15px 15px 15px;
+	cursor: pointer;
+	padding: 5px;
+	height: 10px;
+	margin: 10px 10px 0px 0px;
+	width: 10px;
+	vertical-align:bottom;
+}
+#dot-nav li.active, #dot-nav li:hover {
+	background-color: #8e44ad;
 }
 
-.button2:hover {
-    color:white;
-    box-shadow: inset 0 -3em 0 rgba(215, 54, 255, 0.6) ;
-    background-color: transparent;
-    border-color: transparent;
-    text-decoration: none;
+#dot-nav a {
+	outline: 0;
+	vertical-align:top;
+	margin: 0px 0px 0px 25px;
+	position: relative;
+	top:-5px;
 }
-
-@media screen and (min-width:767px){
-	.button2 {display:block}
+.awesome-tooltip + .tooltip > .tooltip-inner {
+    /*background-color: #8e44ad;*/ 
+/*     color: #f5f5f5; 
+    border: 1px solid #8e44ad; 
 }
-@media screen and (max-width:766px){
-	.button2{display:none}
-}
+.awesome-tooltip + .tooltip.left > .tooltip-arrow{
+    top:50%;
+    right:0;
+    margin-top:-5px;
+    border-top:5px solid transparent;
+    border-bottom:5px solid transparent;
+    border-left:5px solid #8e44ad;
+}  */
 
 /* .navbar-toggler:focus,
 .navbar-toggler:active,
