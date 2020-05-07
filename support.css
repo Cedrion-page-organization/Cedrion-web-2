@@ -260,6 +260,7 @@ section{
 } */
 #centrar{
     justify-content: center;
+    
 }
 
 #support-page{
@@ -450,12 +451,13 @@ section{
     color: white;
     font-family: sans-serif;
     padding: 0 5px 5px;
-    box-shadow: inset 0 -0.5em 0 rgba(208, 0, 227, 0.3);
+    /* box-shadow: inset 0 -0.5em 0 rgba(208, 0, 227, 0.3); */
     transition: box-shadow .2s ease-in-out;
     cursor: pointer;
     width: 10%;
     font-size: 2.3rem;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 hr{
