@@ -580,10 +580,10 @@ footer{
     }
 }
 
-@media (min-width: 320px)and (max-width: 1000px) {
-    .myImage{
-        padding-top: 7%;
+    @media (min-width: 320px) and (max-width: 1000px) {
+        .myImage{
+            padding-top: 7%;
+        }
     }
-}
 
 
