@@ -13,11 +13,37 @@ html{
 }
 
 /* Navbar */
+.english{
+    display: block;
+}
 
+.spanish{
+    display: none;
+}
+
+/*--------------- nav bar translate  ---------------*/
+.languageTranslate{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    background-color: transparent;
+}
+
+  .navbar .dropdown.show a { 
+    background-color:#161617;
+  }
+
+  .navbar .dropdown.show a :hover{ 
+    background-color: #bb51ce;
+  }
 /* .sticky-top{
     opacity: 85%;
 } */
 .navbar{
+ /*    background-color: #0F0E2E!important; */
     background-color: #161617!important;
     width: 100%;
     margin: 0;
@@ -27,9 +53,72 @@ html{
     font-weight: 400;
     /* box-shadow: 0 2px 4px 0 rgb(0, 0, 0, .5); */
     /* background-color: #2c2c2c; */
+    
+    
 }
+/* .bg-dark{
+    background-color: #0F0E2E!important!;
+} */
+
+
 
 .nav-link{
+    font-size: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    /* color: #00FFFB; */
+ /*   color: #9336FF;  */
+   color: #bb51ce; 
+  background: rgba(59, 57, 59, 0.616);
+ transition: background .3s;
+ border-radius: 5px; 
+}
+
+.navbar-dark .navbar-toggler  {
+    border: none;
+    outline: none;
+  }
+
+  .active a{
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #bb51ce; 
+   /*  background-color: rgba(57, 57, 59, 0.616);
+    border-radius: 5px; */
+}
+
+
+.logo{
+    min-width: 117px;
+    max-width: 87px;
+    margin-left: 20px;
+    border: none;
+}
+
+  
+/* .navbar{
+    background-color: #161617!important;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 10vh;
+    font-size: .9rem;
+    font-weight: 400; */
+    /* box-shadow: 0 2px 4px 0 rgb(0, 0, 0, .5); */
+    /* background-color: #2c2c2c; */
+/* } */
+
+/* .nav-link{
     font-size: 20px;
     justify-content: flex-end;
     align-items: center;
@@ -44,7 +133,7 @@ html{
     min-width: 117px;
     max-width: 87px;
     margin-left: 20px;
-}
+} */
 
 .container{
     display: flex;
