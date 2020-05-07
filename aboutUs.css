@@ -224,12 +224,12 @@ img{
     padding-left: 45px; */ 
     
 }
-.white{
+
+.container-fluid_vision h2 {
     color: white;
     font-size: 2.45rem;
     font-weight: bold;
 }
-
 
 /*  Team container  */
 
@@ -254,7 +254,11 @@ img{
     color: white;
 }
 
-
+.container-fluid_team span{
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
 
 #myCol{
     /* background-color: transparent; */
@@ -263,7 +267,7 @@ img{
 
 #team{
     max-width: 100%;
-    
+
 }
 
 .btndown{
@@ -313,15 +317,19 @@ hr{
 .container-fluid_founders p{
     color: grey;
 }
-
-h2{
-   color: black;
-}
-#title-founders{
+.container-fluid_founders span{
     color: #0F0E2E;
     font-weight: bold;
     font-size: 2.5rem;
 }
+h2{
+   color: black;
+}
+/* #title-founders{
+    color: #0F0E2E;
+    font-weight: bold;
+    font-size: 2.5rem;
+} */
 .row{
     display: flex;
     flex-wrap: wrap;
