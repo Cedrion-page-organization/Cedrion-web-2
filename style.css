@@ -52,6 +52,10 @@ body{
     border-radius: 5px;
 }
 
+#dropdown09 {
+    padding-left: 17px;
+}
+
 .navbar-expand-lg .navbar-nav .dropdown-menu{
     background-color: transparent;
 }
@@ -59,6 +63,7 @@ body{
   .navbar .dropdown.show a { 
     background-color:#161617;
   }
+  
 
   .navbar .dropdown.show a :hover{ 
     background-color: #bb51ce;
@@ -90,10 +95,10 @@ body{
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
-   color: #bb51ce; 
-  background: rgba(59, 57, 59, 0.616);
- transition: background .3s;
- border-radius: 5px; 
+    color: #bb51ce; 
+    background: rgba(59, 57, 59, 0.616);
+    transition: background .3s;
+    border-radius: 5px; 
 }
 
 .navbar-dark .navbar-toggler  {
@@ -136,7 +141,7 @@ body{
     /* position: relative; */
     width: 100%;
     height: 100vh;
-    background: #43C6AC;  /* fallback for old browsers */
+    background: #0F0E2E;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)), url(./img/Homepage-background.jpg); 
     background: linear-gradient(to right, rgba(20, 11, 54, 0.692), hsla(168, 45%, 2%)), url(./img/Homepage-background.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-position: center center;
@@ -251,14 +256,16 @@ body{
    } 
 
 
-.landing-box-1 p{
+.landing-box-1 p {
     align-items: center;
+    text-align: center;
     font-size: 1.3rem;
     color: white;
     letter-spacing: 2px;
     line-height: 2rem;
     padding-top: 5%;
 }
+
 
 /* ----------- Discover more scroll to next section -------------- */
 
@@ -540,17 +547,19 @@ body{
     .about-us h1{
         margin-top: 45px;
         font-size: 2.8rem;
-        text-align: left;
+       /*  text-align: left; */
         padding-left: 2%;
     }
     .about-us p {
-        text-align: left;
+       /*  text-align: left; */
         font-size: 1.8rem;
         padding-top: 20px;
         line-height: 27px;
-        padding-right: 20%;
+    /*     padding-right: 20%; */
         line-height: 2.6rem;
-        padding-left: 2%;
+       /*  padding-left: 2%; */
+       padding-right: 5%;
+       padding-left: 5%;
 
     }
 }
@@ -683,34 +692,41 @@ body{
 
 
 /*------------------ device features content and images ---------------------*/
+
+
 .device-features{
+    color: white;
+    background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
+     width: 100%;
+    /*  padding-left: 45px; */
     /* border: 3px solid red; */ 
-    display: table-cell;
+   /*  display: table-cell;
     justify-content:center;
     width: 100%;
     padding-bottom: 50px;
-    background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
+    background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%)); */
     /* background-color: #0F0E2E; */
-    height: 38vh;
+   /*  height: 38vh; */
   }  
 
- .device-features h2, p{
+ /* .device-features h2, p{
     text-align: center;
     vertical-align: middle;
-  }  
+  }   */
 
   .device-features h2 {
-    color: white;
-    font-weight: bold;
-    padding-bottom: 30px;
-    font-size: 2.2rem;
     margin-top: 45px;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
   }  
 
   .device-features  p{
-    color: white;
     font-size: 1.2rem;
-    padding-bottom: 10%;
+    text-align: center;
+    padding-top: 15px;
+    /* padding-right: 4%; */
+    margin-bottom: 45px;
    /*  padding-right: 20%;
     padding-left: 20%; */
   }  
@@ -766,8 +782,76 @@ body{
 }
 
 
+
+
+/*----------------- iphone 5 media query ----------------*/
+@media (max-width:370px) and (max-height: 680px)  { 
+    /* .about-us{
+        height: 40vh;
+    } */
+   
+    .device-features h2{
+        margin-top: 28px;
+        font-size: 1.9rem;
+        padding-left: 0;
+    }
+    .device-features p{
+       font-size: 1.2rem;
+       padding-top: 10px;
+    }
+
+} 
+
+
+/* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
+@media (min-width:770px) and (max-height: 1366px)  {
+
+    .device-features {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .device-features h2{
+        margin-top: 45px;
+        font-size: 2.8rem;
+      /*   text-align: left; */
+        padding-left: 2%;
+    }
+    .device-features p {
+      /*   text-align: left; */
+        font-size: 1.8rem;
+        padding-top: 20px;
+        line-height: 27px;
+    /*     padding-right: 20%; */
+        line-height: 2.6rem;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
+    .device-img{
+        padding-top: 20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* iphone 5 media query */
-@media (max-width: 360px) {
+/* @media (max-width: 360px) {
     .device-features{
         height: 40vh;
       }  
@@ -786,11 +870,11 @@ body{
     font-size: 1.1rem;
   }  
 
-}
+} */
 
 
 /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
-@media (min-width:770px) and (max-height: 1366px)   {
+/* @media (min-width:770px) and (max-height: 1366px)   {
     .device-features h2{
         font-size: 2rem;
         padding-top: 2%;
@@ -808,7 +892,7 @@ body{
        }
       
 }
-
+ */
 
 
 /* ---------------- Footer ------------------*/
