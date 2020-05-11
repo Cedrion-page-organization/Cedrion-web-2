@@ -446,7 +446,7 @@ body h2{
 
 }
 
-#projects{
+.projects{
     /* background-color: white; */
     margin-right: auto;
     margin-left: auto;
@@ -454,7 +454,7 @@ body h2{
     
 }
 
-#projects .container-pictures{
+.projects .container-pictures{
     display: flex;
     flex-wrap: wrap;
     /* margin-left: 37px; */
@@ -559,7 +559,7 @@ body h2{
     padding-bottom: 0%;
 }
 
-#projects .container-images{
+.projects .container-images{
     display: flex;
     flex-wrap: wrap;
     margin-left: 37px;
