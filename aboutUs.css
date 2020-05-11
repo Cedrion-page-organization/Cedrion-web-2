@@ -338,13 +338,24 @@ hr{
     background-color: white;
 }
 .container-fluid_founders p{
-    color: grey;
+    color: #69696C;
 }
 .container-fluid_founders span{
     color: #0F0E2E;
     font-weight: bold;
     font-size: 2.5rem;
 }
+
+.container-fluid_founders .bold-text{
+    color: #69696C;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+
+
+
 h2{
    color: black;
 }
@@ -443,7 +454,8 @@ h3{
     /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);background: #7F7FD5;   */ /* fallback for old browsers */
     /* background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  Chrome 10-25, Safari 5.1-6 */
     /* background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+/*     background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%); */
+    background-image: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
     color: white;
     border-radius: 5px;
     border: none;
@@ -454,6 +466,9 @@ h3{
 #founders .card:hover h3, #founders .card:hover{
     color:#fff;
 }
+
+
+
 
 #cards {
     justify-content: center;
