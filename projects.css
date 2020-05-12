@@ -835,6 +835,15 @@ body h2{
         margin-left: 20%;
     } */
 
+
+
+    /* ----------iphone 5 media query ----------  */
+    @media (max-width: 375px) { 
+        .wave{
+            display: none;
+        }
+    }
+
     @media (min-width: 320px) and (max-width: 466px) {
         #bg_projects{
             height: 149vh;
@@ -979,12 +988,7 @@ body h2{
         }
     } 
 
-      /* ----------iphone 5 media query ----------  */
-     @media (max-width: 375px) { 
-        .wave{
-           display: none;
-        }
-    }
+  
 
 
     /*Media queries for Iphone5*/
