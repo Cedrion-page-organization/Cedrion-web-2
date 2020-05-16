@@ -245,13 +245,13 @@ img{
 
 }
 
-.container-fotos-one img{
+/* .container-fotos-one img{ */
     /* align-items: center; */
-    width: 18rem; 
+ /*    width: 18rem;  */
   /*   border: 1px solid red; */
   /*   padding-bottom: 10%;
     padding-top: 10%;   */
-}
+/* } */
 
 
 .container-fotos{
@@ -262,6 +262,7 @@ img{
     /* margin-left: 21rem;
     margin-right: 21rem; */
     justify-content: center;
+    
     /* border: 1px solid red; */
 }
 
@@ -515,6 +516,7 @@ section{
     box-shadow: 2px 4px 20px rgba(147, 54, 255, 0.5);
     padding-right: 7%;
     padding-left: 7%;
+    width: 18rem;
     
 }
 
@@ -539,7 +541,7 @@ section{
     /* box-shadow: 2px 4px 20px rgba(147, 54, 255, 0.5); */
     padding-right: 7%;
     padding-left: 7%;
-    
+    width: 18rem;
 }
 
 .btndown{
