@@ -464,8 +464,8 @@ body{
 
 
         .plasma-image img{
-            max-width: 480px;
-            max-height: 480px;
+            max-width: 430px;
+            max-height: 430px;
         }
 
         /* #about .cta-button-2 a{
