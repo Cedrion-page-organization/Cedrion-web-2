@@ -9,3 +9,5 @@ const translateToEnglish = () => {
     $(".spanish").css("display", "block")
   }
   
+
+  
