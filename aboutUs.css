@@ -132,6 +132,7 @@ body h2{
 .navbar-dark .navbar-toggler  {
     border: none;
     outline: none;
+    padding-right: 6%;
   }
 
   .active a{
@@ -686,7 +687,11 @@ h3{
         padding: 3rem;
     }
 
-  
+    /* .navbar-expand-lg>.container-fluid {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        padding-right: 4%;
+    } */
 
 /* 
     .myImage{
