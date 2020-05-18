@@ -387,6 +387,9 @@ body h2{
 .mb-3, .my-3 {
     margin-bottom: 2rem!important;
 }
+
+
+
 .container_fluid_project2 {
     padding: 1.6rem;
     background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));

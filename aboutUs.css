@@ -424,7 +424,7 @@ h2{
     max-width: 100%;
 } */
 
-#threed:hover{
+/* #threed:hover{
     box-shadow:
     1px 1px gray,
     2px 2px gray,
@@ -432,19 +432,19 @@ h2{
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
 
-}
+} */
 
 .about{
     padding: 0;
 }
 
-i{
-    font-size: 2rem;
+/* i{
+    font-size: 2rem; */
     /* color: #B64DEB; */
-    color: white;
+  /*   color: white;
     border-radius: 20px;
     padding-top: 20px;
-}
+} */
 
 .text-center {
     text-align: center!important;

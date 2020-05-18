@@ -692,10 +692,6 @@ h2{
 }
 
 
-.img-fluid{
-    max-width: 100%;
-}
-
 /* .threed:hover{
     box-shadow:
     1px 1px gray,
@@ -710,13 +706,13 @@ h2{
     padding: 0;
 }
 
-i{
-    font-size: 2rem;
+/* i{
+    font-size: 2rem; */
     /* color: #B64DEB; */
-    color: white;
+  /*   color: white;
     border-radius: 20px;
     padding-top: 20px;
-}
+} */
 
 /* .text-center {
     text-align: center!important;
@@ -779,9 +775,6 @@ h2{
 }
 
 
-.img-fluid{
-    max-width: 100%;
-}
 
 /* .threed:hover{
     box-shadow:
@@ -797,13 +790,13 @@ h2{
     padding: 0;
 }
 
-i{
-    font-size: 2rem;
+/* i{
+    font-size: 2rem; */
     /* color: #B64DEB; */
-    color: white;
+  /*   color: white;
     border-radius: 20px;
     padding-top: 20px;
-}
+} */
 
 .text-center {
     text-align: center!important;
