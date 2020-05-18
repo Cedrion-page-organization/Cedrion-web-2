@@ -549,7 +549,24 @@ h3{
         justify-content: center;
     }
     
+    .privacy{
+        color: white;
+        text-align: center;
+        font-size: 1.1rem;
+        padding-left: 2%;
+        cursor: pointer;
+        padding-bottom: 10%;
+    }
     
+    .privacy:hover{
+        color: #bb51ce;  
+    }
+    
+    a:hover{
+        text-decoration:none;
+    }
+
+
     .social-icons{
      /* border:1px solid green;  */
         text-align: center;
@@ -692,6 +709,11 @@ h3{
 
     .container-fluid_founders {
         padding: 3rem;
+    }
+
+    .privacy{
+        text-align: left;
+        padding-top: 5%;
     }
 
     /* .navbar-expand-lg>.container-fluid {
