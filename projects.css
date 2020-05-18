@@ -4,15 +4,9 @@ html{
 
 body{
     font-size: 1rem;
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Monda', sans-serif;
-    /* font-weight: 300; */
     margin: 0;
     padding: 0;
-    /* background-color: #1D2326; */
-    /* background-color: #252627;    */
-    /* background-color: #2c2c2c; */
-    /* background-color: rgb(52, 58, 64); */
     background-color: #0F0E2E;
 }
 
@@ -20,11 +14,9 @@ body p{
     color: white;
     margin-top: 10px;
     font-size: 1.1rem;
-    
 }
 
 body h1{
-/*     font-size: 4.1rem; */
     margin-bottom: .5rem;
     font-family: inherit;
     line-height: 1.2;
@@ -38,62 +30,8 @@ body h1{
 
 body h2{
     color: white;
-  /*   font-family: 'Monda', sans-serif; */
     font-size: 2.7rem;
-    
 }
-
-/*Media querys*/
-
-/* :root {
-    --bg_projects-height: 100vh;
-    --wave-height: 250px;
-    
-    @media screen and (min-width: 320px) {
-        --bg_projects-height: 136vh;
-        --wave-height: 0;
-    }
-} */
-
-/* @media screen (min-width: 400) and (max-width: 840px) {
-    
-   
-} */
-
-
-
-/* @media screen and (max-width: 576px){
-    .wave{
-        padding-top: 12%;
-    }
-} */
-
-
-
-/* @media (min-width: 320px) and (max-width: 400px) {
-    
-    #content-projects{
-        padding-top: 0%;
-        
-    }
-    .wave{
-        padding-top: 33%;
-    }
-    .bg_projects{
-        height: 150vh;
-    }
-    #container-pictures {
-        margin-left: 0;
-    }
-    .pic1{
-        margin: 0;
-    }
-} */
-
-/* ------------Navbar ----------------*/
-/* .sticky-top{
-    opacity: 85%;
-} */
 
 /* --------- Translation ---------*/
 .english{
@@ -193,18 +131,15 @@ body h2{
 /* .container{
     display: flex;
     width: 100%;
-    margin: 0;
-    padding: 0; */
+    margin: 0px;
+    padding: 0px; */
     /* background-color: #2c2c2c; */
     /* background-color: rgb(52, 58, 64); */
- /*    background-color: #0F0E2E;
+/*     background-color: #0F0E2E;
 }
  */
 
-
-
-
- #bg_projects{
+#bg_projects{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -214,8 +149,6 @@ body h2{
     background: linear-gradient(180deg, rgba(26, 22, 85, 0.9) 0%, rgba(68, 197, 172, 0.8) 99.99%, rgba(13, 186, 124, 0.392) 100%), url('./img/projects.jpg'); 
     background-size: cover;
     position: relative;
-    
-
 }
 
 #bg_projects p {
@@ -239,8 +172,10 @@ body h2{
     bottom: 0;
     width: 100%;
     border-style: none;
-    height: 250px;
+    height: 150px;
+    overflow: hidden;
 }
+
 
 .texto-support{
     display: flex;
@@ -295,6 +230,8 @@ body h2{
     font-weight: lighter;
 }
 
+
+
 .container-3{
     margin-left: 1%;
     margin-right: 0;
@@ -316,6 +253,7 @@ body h2{
 }
 
 
+
 /* CONTAINER 1 NEW TRY*/
 
 
@@ -327,8 +265,9 @@ body h2{
 }
 
 
+ /* Aeronautics pictures */
 .pic1{
-    margin: 12px;
+    /* margin: 15px;  */
     text-align: center;
   /*   border: 1px solid red; */
 }
@@ -338,7 +277,6 @@ body h2{
     height: 150px;
     border-radius: 50%;
     border: 7px solid #fff;
-    -webkit-box-shadow: 10px 7px 12px 7px rgba(207,118,255,0.79); 
     box-shadow: 10px 7px 12px -5px #b8b8bf;
     border: 3px #fff;
     transition: transform 2s, 1.5s ease-in-out;
@@ -348,16 +286,18 @@ body h2{
 
 
 .pic1 img:hover {
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
     transform: scale(1.2); 
 }
 
 
 
-.pic2{
-    /* margin: 30px; */
-    margin: 12px; 
+
+ /* Drones pictures */
+
+ .pic2{
+   /*  margin: 45px; */
     text-align: center;
   /*   border: 1px solid red; */
 }
@@ -376,23 +316,68 @@ body h2{
 
 
 .pic2 img:hover {
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
     transform: scale(1.2); 
 }
+
+
+
+ /* Biotech pictures */
+
+.pic3{
+    /* margin: 12px; */
+    text-align: center;
+  /*   border: 1px solid red; */
+}
+
+.pic3 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    box-shadow: 10px 7px 12px -5px #b8b8bf;
+    border: 3px #fff;
+    transition: transform 2s, 1.5s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.pic3 img:hover {
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+
+/* Padding for aeronautics and biotech caption and pictures */
+.container-one{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+
 
 
 .projects h6{
       color: #69696C;
       margin-top: 8%;
+     /*  text-align: center; */
 }
 
 
-
+/* picture 2 h6 caption */
 .projects .pic2 h6{
     color: white;
     margin-top: 8%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
+
+
+
+
 
 .mb-3, .my-3 {
     margin-bottom: 2rem!important;
@@ -400,8 +385,10 @@ body h2{
 .container_fluid_project2 {
     padding: 1.6rem;
     background: linear-gradient(to right, hsla(244, 59%, 21%), hsla(168, 53%, 52%));
-}
+    /* background: linear-gradient(to right, hsla(244, 59%, 21%, 0.692), hsla(168, 53%, 52%, 0.589)); */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 
+}
 .container_fluid_project2 h2{
     font-weight: bold;
     padding: 2%;
@@ -415,6 +402,7 @@ body h2{
     padding-right: 2%;
     text-align: left;
     font-size: 1.25rem;
+    /* padding-top: 15px; */
     line-height: 2.1rem;
 }
 
@@ -457,6 +445,7 @@ body h2{
 }
 
 #project3{
+  /*   padding: 2.5rem; */
     padding-right: 1.6rem;
     padding-left: 1.6rem;
     padding-bottom: 1.6rem;
@@ -489,6 +478,8 @@ body h2{
   }  */
 
   #footer{
+    /*  width: 100%; */
+    /*  margin-top: auto;  */
         background: #161617;
         padding-top: 30px; 
         padding-bottom: 30px; 
@@ -592,11 +583,6 @@ body h2{
         color: white;
         text-decoration: none;
         box-shadow: inset 0 -2em 0 rgba(187, 81, 206, 0.5);
-              /* Alternative colour */
-           /*  box-shadow: inset 0 -2em 0 rgba(89,34,213, 0.5);  */
-           /* box-shadow: inset 0 -2em 0 rgba(208, 0, 227, 0.3); */ 
-           /* box-shadow: inset 0 -2em 0 rgba(250, 95, 229, 0.3); */
-         
         } 
     
     
@@ -660,7 +646,9 @@ body h2{
             padding-bottom: 1rem;
         }
 
-
+        .pic1{
+            /* margin: 45px; */
+        }
 
                 
         .pic1 img{
@@ -668,24 +656,39 @@ body h2{
             height: 200px;
         }
 
+        .pic2{
+            /* margin: 45px; */
+        }
+
+        
+
         .pic2 img{
             width: 200px;
             height: 200px;
         }
 
+        .pic3{
+            margin: 45px;
+        }
+
+        .pic3 img{
+            width: 200px;
+            height: 200px;
+        }
     
     }
 
 
      /* ----------iphone 5 media query ----------  */
      @media (min-width: 320px) and (max-height: 677px) { 
-        .wave{
-           display: none;
-        }
+         .wave{
+           /* display: none; */
+           height: 100px;
+        } 
 
         #bg_projects h1 {
-            margin-top: 70px;
-            padding: 1.6rem;
+           /*  margin-top: 70px; */
+            /* padding: 1.6rem; */
             font-size: 1.8rem;
         }
 
