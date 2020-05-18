@@ -960,30 +960,24 @@ i{
         }
     } */
     
-@media (min-width: 878px) {
+/* @media (min-width: 878px) { */
         /* .container-fotos {
             display: flex; 
             margin-left: 21rem; 
             margin-right: 21rem;
         } */
-<<<<<<< HEAD
-    .row{
-=======
+    
        /*  .row{
->>>>>>> 4e9439c3df0420a8b84a47bf53eec136f7f47288
             display: flex;
             flex-wrap: wrap;
             margin-left: auto;
             margin-right: auto;
 
     
-<<<<<<< HEAD
     }
 } 
-=======
-        } */
-    } 
->>>>>>> 4e9439c3df0420a8b84a47bf53eec136f7f47288
+} */
+     
 
      /* ----------iphone 5 media query ----------  */
      @media (max-width: 320px) { 
@@ -1051,20 +1045,20 @@ i{
 
     .incubators-images{
         /*     border: 1px solid red; */
-            padding-right: 20%;
-            padding-left: 20%;
+            padding-right: 10%;
+            padding-left: 10%;
         
         }
 
     .european-images {
         /* border: 1px solid red; */
-         padding-right: 20%;
-        padding-left: 20%;
+         padding-right: 10%;
+        padding-left: 10%;
     }
     .national-images{
         /*   border: 1px solid red; */
-          padding-right: 20%;
-          padding-left: 20%;
+          padding-right: 10%;
+          padding-left: 10%;
       
       }
 }
