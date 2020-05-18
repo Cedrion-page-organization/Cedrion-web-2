@@ -1160,7 +1160,7 @@ body{
 
 
 
-#defaultContactFormName, #defaultContactFormEmail, #exampleFormControlTextarea2{
+.defaultContactFormName, .defaultContactFormEmail, .exampleFormControlTextarea2{
    /*  background-color:#7d7d7d; */
    background-color: #BED5CF;
     border: none;
