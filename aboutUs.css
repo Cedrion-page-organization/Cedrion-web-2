@@ -8,6 +8,7 @@
     width: 100%;
 }  */
 
+
 html{
     scroll-behavior: smooth;  
 }
@@ -29,13 +30,14 @@ body{
     /* background-color: #252627;    */
     /* background-color: #2c2c2c; */
     background-color: #0F0E2E; 
+    font-family: 'Monda', sans-serif;
 }
 
 body p{
     color: white;
     margin-top: 20px;
     font-weight: inherit;
-    font-family: 'Monda', sans-serif;
+  /*   font-family: 'Monda', sans-serif; */
     line-height: 2.1rem;
     font-size: 1.3rem;
     padding-bottom: 2%;
