@@ -28,9 +28,14 @@ body h1{
     padding-top: 0;
 }
 
-body h2{
+/* body h2{
     color: white;
     font-size: 2.7rem;
+} */
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 /* --------- Translation ---------*/
@@ -75,7 +80,6 @@ body h2{
 
 
 .navbar{
- /*    background-color: #0F0E2E!important; */
     background-color: #161617!important;
     width: 100%;
     margin: 0;
@@ -85,7 +89,7 @@ body h2{
     min-height: 10vh;
     font-size: .9rem;
     font-weight: 400; 
-    padding-right: 1.5%;
+  /*   padding-right: 1.5%; */
 }
 
 
@@ -119,7 +123,7 @@ body h2{
 
 .navbar-toggler:not(:disabled):not(.disabled) {
     cursor: pointer;
-    margin-right: 2%;
+   /*  margin-right: 2%; */
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
@@ -272,7 +276,7 @@ body h2{
 
  /* Aeronautics pictures */
 .pic1{
-    /* margin: 15px;  */
+    margin: 15px; 
     text-align: center;
   /*   border: 1px solid red; */
 }
@@ -379,8 +383,6 @@ body h2{
     padding-right: 10%;
     padding-left: 10%;
 }
-
-
 
 
 
@@ -603,16 +605,14 @@ body h2{
         }
 
         #bg_projects h1 {
-            padding-right: 3rem;
-            padding-left: 3rem;
+            /* padding-right: 3rem; */
+            padding-left: 4rem;
             padding-bottom: 0;
             font-size: 4rem;
         }
 
         #bg_projects p {
-           
-            padding-right: 3rem;
-            padding-left: 3rem;
+            padding-left: 4rem;
             padding-bottom: 2.5rem;
             padding-top: 3%;
             font-size: 1.8rem;
@@ -627,10 +627,12 @@ body h2{
         #project1 p{
             font-size: 1.2rem;
             line-height: normal;
+            padding-left: 3rem;
+            font-size: 1.3rem;
         }
 
         #project2 p{
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             line-height: normal;
         }
         
@@ -640,7 +642,7 @@ body h2{
         }
 
         #project3 p{
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             line-height: normal;
         }
 
@@ -650,7 +652,8 @@ body h2{
         }
 
         #project1 h2 {
-            padding: 1.9rem;
+            /* padding: 1.9rem; */
+            padding-left: 3rem;
             padding-bottom: 1rem;
         }
 
@@ -662,6 +665,8 @@ body h2{
         #project2 h2 {
             padding: 1.9rem;
             padding-bottom: 1rem;
+            color: white;
+            font-size: 2.5rem;
         }
 
         .container_fluid_project3 p {
@@ -672,10 +677,11 @@ body h2{
         #project3 h2 {
             padding: 1.9rem;
             padding-bottom: 1rem;
+            font-size: 2.5rem;
         }
 
         .pic1{
-            /* margin: 45px; */
+            margin: 45px;
         }
 
                 
@@ -685,7 +691,7 @@ body h2{
         }
 
         .pic2{
-            /* margin: 45px; */
+            margin: 45px;
         }
 
         
@@ -695,9 +701,9 @@ body h2{
             height: 200px;
         }
 
-        .pic3{
+        /* .pic3{
             margin: 45px;
-        }
+        } */
 
         .pic3 img{
             width: 200px;
@@ -780,7 +786,7 @@ body h2{
         justify-content: center;
     }
 
-    .container-pictures pic1 {
+    .container-pictures .pic1 {
         margin: 10px ;
     }
 
