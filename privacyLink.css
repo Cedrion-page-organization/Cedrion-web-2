@@ -109,6 +109,9 @@ body{
     border: none;
 }
 
+#privacy{
+    margin-top: 100px;
+}
 
 
 .legal-box-1{
@@ -117,7 +120,7 @@ body{
     justify-content: center;
     color:#69696C;
     width: 100%;
-    margin-top: 110px;
+ /*    margin-top: 110px; */
 }
 
 
@@ -125,6 +128,7 @@ body{
     text-align: left;
     font-size: 2.2rem;
     font-weight: bold;
+    padding-top: 2%;
 }
 
 .legal-box-1 h2{
@@ -261,13 +265,17 @@ li{
             text-align: end;
         }
 
-        .legal-box-1{
+     /*    .legal-box-1{
             margin-top: 150px;
     
-        }
+        } */
 
         .privacy{
             text-align: left;
+            padding-top: 5%;
+        }
+
+        .legal-box-1 h1 {
             padding-top: 5%;
         }
 
