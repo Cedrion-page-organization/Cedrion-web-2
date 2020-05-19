@@ -745,8 +745,11 @@ body h1{
         } 
 
         #bg_projects h1 {
-           /*  margin-top: 70px; */
-            /* padding: 1.6rem; */
+            margin-top: 70px; 
+            padding-right: 1.6rem;
+            padding-left: 1.6rem;
+            padding-top: 0;
+            padding-bottom: 0;
             font-size: 1.8rem;
         }
 
