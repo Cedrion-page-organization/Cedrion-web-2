@@ -369,7 +369,7 @@ body h1{
 
 .projects h6{
       color: #69696C;
-      margin-top: 8%;
+      margin-top: 10%;
      /*  text-align: center; */
 }
 
@@ -377,7 +377,7 @@ body h1{
 /* picture 2 h6 caption */
 .projects .pic2 h6{
     color: white;
-    margin-top: 8%;
+    margin-top: 10%;
     padding-right: 10%;
     padding-left: 10%;
 }
@@ -505,9 +505,8 @@ body h1{
         color: white;
         text-align: center;
         font-size: 1.1rem;
-        padding-left: 2%;
         cursor: pointer;
-        padding-bottom: 10%;
+        padding-bottom: 5%;
     }
     
     
