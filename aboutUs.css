@@ -553,9 +553,8 @@ h3{
         color: white;
         text-align: center;
         font-size: 1.1rem;
-        padding-left: 2%;
         cursor: pointer;
-        padding-bottom: 10%;
+        padding-bottom: 5%;
     }
     
     .privacy:hover{
