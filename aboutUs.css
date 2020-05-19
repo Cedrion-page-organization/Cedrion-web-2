@@ -39,7 +39,7 @@ body p{
     font-weight: inherit;
   /*   font-family: 'Monda', sans-serif; */
     line-height: 2.1rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding-bottom: 2%;
 }
 
@@ -290,7 +290,7 @@ img{
 
 .container-fluid_vision h2 {
     color: white;
-    font-size: 2.45rem;
+    font-size: 2.1rem;
     font-weight: bold;
     padding-top: 2%;
 }
@@ -386,7 +386,7 @@ hr{
 .container-fluid_founders span{
     color: #0F0E2E;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     /* padding-bottom: 2%; */
 }
 
@@ -672,7 +672,7 @@ h3{
     
     
     /* -----------/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) -----------*/
-    @media (min-width:770px) and (max-height: 1366px)   {
+    @media (min-width:770px) and (max-height: 1883px)   {
         .logo{
             margin-left: 5px;
         }
@@ -680,6 +680,7 @@ h3{
         body p {
             padding-bottom: 0; 
             line-height: 2.5rem;
+            font-size: 1.3rem;
         } 
 
         .cta-button-3{
@@ -710,8 +711,13 @@ h3{
         padding: 3rem;
     }
 
+    .container-fluid_vision h2 {
+        font-size: 2.45rem;
+    }
+
     .container-fluid_founders {
         padding: 3rem;
+        font-size: 2.5rem;
     }
 
     .privacy{
