@@ -123,6 +123,10 @@ body{
 
 /* Introduction of projects section */
 
+.col-12{
+    padding: 0;
+}
+
 #bg_projects{
     display: flex;
     align-items: center;
