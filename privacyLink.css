@@ -44,19 +44,18 @@ body{
     background-color: transparent;
 }
 
- .navbar-expand-lg .navbar-collapse {
+.navbar-expand-lg .navbar-collapse {
     padding-right: 15px;
-  }
+}
 
-  .navbar .dropdown.show a { 
+.navbar .dropdown.show a { 
     background-color:#161617;
-  }
+}
   
 
-  .navbar .dropdown.show a :hover{ 
+.navbar .dropdown.show a :hover{ 
     background-color: #bb51ce;
-  }
-
+}
 
 
 .navbar{
@@ -109,6 +108,23 @@ body{
     border: none;
 }
 
+/* Bootstrap container-fluid */
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* For responsivity of hamburger menu .row is needed  */
+
+.row {
+    margin: 0;
+ }
+
+
+
+/* Privacy explanation container  */
+
 #privacy{
     margin-top: 100px;
 }
@@ -120,7 +136,6 @@ body{
     justify-content: center;
     color:#69696C;
     width: 100%;
- /*    margin-top: 110px; */
 }
 
 
@@ -132,6 +147,12 @@ body{
 }
 
 .legal-box-1 h2{
+    text-align: left;
+    font-weight: bold;
+    padding-top: 3%;
+}
+
+.legal-box-1 h3{
     text-align: left;
     font-weight: bold;
     padding-top: 3%;
@@ -154,6 +175,7 @@ body{
     padding-top: 15px;
 }
 
+/* List styling */
 
 li{
     padding: 2%;
@@ -161,13 +183,12 @@ li{
 }
 
 
+/* Footer */
 
-
- #footer{
+#footer{
         background: #161617;
         padding-top: 30px; 
         padding-bottom: 30px; 
-       
     }
     
     
@@ -230,17 +251,17 @@ li{
     
     
     
-    /*-------------- Scroll up to top button -----------------*/
+    /* Scroll up to top button  */
       
     .cta-button-3{
         text-align: center;
     }
     
-     .cta-button-3 {
-            padding: 2%;
-        }
+    .cta-button-3 {
+        padding: 2%;
+    }
       
-     .cta-button-3 a {
+    .cta-button-3 a {
         border:1px solid white; 
         display: inline-block;
         color:white;
@@ -248,27 +269,22 @@ li{
         padding: 0.5em 0.5em;
         border-radius: 50%;
         font-size: 1.5em;
-        }
+    }
         
-        .cta-button-3 a:hover {
-            color: white;
-            text-decoration: none;
-            box-shadow: inset 0 -2em 0 rgba(187, 81, 206, 0.5);
-        } 
+    .cta-button-3 a:hover {
+        color: white;
+        text-decoration: none;
+        box-shadow: inset 0 -2em 0 rgba(187, 81, 206, 0.5);
+    } 
     
        
-/*  ----------large screen and desktop media query ----------  */
+/* large screen and desktop media query */
 
-    @media (min-width:770px) and (max-height: 1366px)   {
+    @media (min-width:770px) and (max-height: 1883px)   {
        
         .cta-button-3{
             text-align: end;
         }
-
-     /*    .legal-box-1{
-            margin-top: 150px;
-    
-        } */
 
         .privacy{
             text-align: left;
@@ -279,15 +295,25 @@ li{
             padding-top: 5%;
         }
 
-
+        .legal-box-1 p {
+            padding-right: 2%;
+        }
     }
 
 
  
-     /* ----------iphone 5 media query ----------  */
+     /* iphone 5 media query */
      @media (max-width: 320px) { 
         .legal-box-1 h1 {
             font-size: 1.6rem;
+        }
+
+        .legal-box-1 h2 {
+            font-size: 1.3rem;
+        }
+
+        .legal-box-1 h3 {
+            font-size: 1.5rem;
         }
 
         .legal-box-1 p {
@@ -296,13 +322,5 @@ li{
     }
           
 
-/* This code needs to be at the end of the style sheet */  
 
- .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-.row {
-    margin: 0;
- }
+ 

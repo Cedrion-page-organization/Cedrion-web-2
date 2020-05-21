@@ -1,3 +1,6 @@
+
+/* Translation button in Navbar */
+
 const translateToEnglish = () => {
     $(".english").css("display", "block")
     $(".spanish").css("display", "none")
