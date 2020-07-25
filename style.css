@@ -499,8 +499,8 @@ body{
         }
                 
         .corona-image img{
-            max-width: 450px;
-            max-height: 450px;
+            max-width: 350px;
+            max-height: 350px;
         }
         
         .corona-discharge p{
@@ -520,6 +520,11 @@ body{
 
     .corona-discharge p {
         font-size: 1.1rem;
+    }
+
+    .corona-image img {
+        max-width: 200px;
+        max-height: 200px;
     }
 }
 
